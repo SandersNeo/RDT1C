@@ -51,7 +51,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ирРазработчик</xr:Item>
 			</DefaultRoles>
 			<Vendor>Tormozit</Vendor>
-			<Version>8.12.2</Version>
+			<Version>8.13.1</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -586,6 +586,7 @@
 			<DataProcessor>ирУправлениеСлужбамиСервера1С</DataProcessor>
 			<DataProcessor>ирУстановщикРасширения</DataProcessor>
 			<DataProcessor>ирФоновыйЗапросХттп</DataProcessor>
+			<DataProcessor>ирФунктор</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

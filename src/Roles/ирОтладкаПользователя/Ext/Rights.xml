@@ -756,6 +756,13 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.ирФунктор</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ирСтруктураХраненияБД</name>
 		<right>
 			<name>Use</name>

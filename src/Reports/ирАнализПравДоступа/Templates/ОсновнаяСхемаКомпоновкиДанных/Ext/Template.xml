@@ -16,6 +16,13 @@
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
 			</valueType>
+			<inputParameters>
+				<dcscor:item>
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ФорматРедактирования</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType"/>
+				</dcscor:item>
+			</inputParameters>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Роль</dataPath>
@@ -940,6 +947,17 @@
 				<v8:content>Объект метаданных.Поле проверки</v8:content>
 			</v8:item>
 		</title>
+		<inputParameters>
+			<dcscor:item>
+				<dcscor:parameter>ФормаВыбора</dcscor:parameter>
+				<dcscor:value xsi:type="xs:string">Во встроенном языке нет способа быстро проверить право (например чтения) на таблицу БД (всех ее полей). Поэтому для ускорения анализа используется упрощенный подход -  право проверяется на любое поле таблицы.</dcscor:value>
+			</dcscor:item>
+			<dcscor:item>
+				<dcscor:use>false</dcscor:use>
+				<dcscor:parameter>ФорматРедактирования</dcscor:parameter>
+				<dcscor:value xsi:type="v8:LocalStringType"/>
+			</dcscor:item>
+		</inputParameters>
 	</calculatedField>
 	<calculatedField>
 		<dataPath>ЕстьРазличияВДоступе</dataPath>
