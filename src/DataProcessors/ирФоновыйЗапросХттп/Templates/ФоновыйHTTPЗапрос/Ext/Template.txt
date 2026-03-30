@@ -307,7 +307,10 @@ window._1CAPI.sendStreamRequest = function(url, body, headersArray, cancelPrevio
                         }
                     }
                 }
-                
+                if (!isActive()) {
+                    if (window.currentStreamXHR === xhr) window.currentStreamXHR = null;
+                    return;
+                }                
                 if (window.streamStatus.pendingChunks > 0) {
                     fireEvent('CHUNK', 'Получено чанков: ' + window.streamStatus.pendingChunks);
                     window.streamStatus.pendingChunks = 0;

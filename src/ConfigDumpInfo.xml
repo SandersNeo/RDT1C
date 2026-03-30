@@ -17,14 +17,14 @@
 		</Metadata>
 		<Metadata name="Catalog.ирАлгоритмы.Command.Команда1.CommandModule" id="d2f08665-e019-47dc-bd2a-7cd8919c48d8.2" configVersion="f8b19a39afadcc4f9a0872f6300c1b7500000000"/>
 		<Metadata name="Catalog.ирАлгоритмы.Command.ОткрытьНастройкиАлгоритмов.CommandModule" id="b94f2fc6-8dd9-4a1b-88c6-9d061b7c5766.2" configVersion="aa46f846cb5ac94da16e383b571c0b8400000000"/>
-		<Metadata name="Catalog.ирАлгоритмы.Form.ФормаВыбораУпр" id="e4fac686-4e42-4713-9022-57d00fe38c6e" configVersion="2b5990a7feaeaf45ac6efbf0e3078e0800000000"/>
-		<Metadata name="Catalog.ирАлгоритмы.Form.ФормаВыбораУпр.Form" id="e4fac686-4e42-4713-9022-57d00fe38c6e.0" configVersion="8ffa6927faf82143946b681631c54fd500000000"/>
+		<Metadata name="Catalog.ирАлгоритмы.Form.ФормаВыбораУпр" id="e4fac686-4e42-4713-9022-57d00fe38c6e" configVersion="0844c62ed244164297baf53646bd227900000000"/>
+		<Metadata name="Catalog.ирАлгоритмы.Form.ФормаВыбораУпр.Form" id="e4fac686-4e42-4713-9022-57d00fe38c6e.0" configVersion="8d521ef2609bde4fbfbd67013b16ca9500000000"/>
 		<Metadata name="Catalog.ирАлгоритмы.Form.ФормаСписка" id="14c3fc6b-84b9-47f8-8d22-7f66a7ae5c3b" configVersion="3529d8e93eef8e4690e59757cdcaabfe00000000"/>
 		<Metadata name="Catalog.ирАлгоритмы.Form.ФормаСписка.Form" id="14c3fc6b-84b9-47f8-8d22-7f66a7ae5c3b.0" configVersion="decbda9fd4f9144dbca4e07fa713bb4c00000000"/>
-		<Metadata name="Catalog.ирАлгоритмы.Form.ФормаСпискаУпр" id="22be523e-211e-4c12-a1dd-156c5ff2a9d8" configVersion="9bdac7a195559f4fb30d52e71f863d5b00000000"/>
-		<Metadata name="Catalog.ирАлгоритмы.Form.ФормаСпискаУпр.Form" id="22be523e-211e-4c12-a1dd-156c5ff2a9d8.0" configVersion="eb41f049b8b91f49a13cbaa0c3d962ba00000000"/>
-		<Metadata name="Catalog.ирАлгоритмы.Form.ФормаЭлемента" id="dfc6daf1-67ea-4070-8f07-213451065108" configVersion="546fab580d79794bb22e5c1e525dda8000000000"/>
-		<Metadata name="Catalog.ирАлгоритмы.Form.ФормаЭлемента.Form" id="dfc6daf1-67ea-4070-8f07-213451065108.0" configVersion="3b87f8a46c41ed4c8c25099f3b2659c200000000"/>
+		<Metadata name="Catalog.ирАлгоритмы.Form.ФормаСпискаУпр" id="22be523e-211e-4c12-a1dd-156c5ff2a9d8" configVersion="d98e9bcf0d36c543abe9ff3a0446fc7c00000000"/>
+		<Metadata name="Catalog.ирАлгоритмы.Form.ФормаСпискаУпр.Form" id="22be523e-211e-4c12-a1dd-156c5ff2a9d8.0" configVersion="f9bacc1670597a42aaa823be5b8013fa00000000"/>
+		<Metadata name="Catalog.ирАлгоритмы.Form.ФормаЭлемента" id="dfc6daf1-67ea-4070-8f07-213451065108" configVersion="b3c45fa6a00c9b46b2b9f084977c747700000000"/>
+		<Metadata name="Catalog.ирАлгоритмы.Form.ФормаЭлемента.Form" id="dfc6daf1-67ea-4070-8f07-213451065108.0" configVersion="6756476eeab3174999cee029bb7b867a00000000"/>
 		<Metadata name="Catalog.ирАлгоритмы.ManagerModule" id="cd070a4a-6274-4576-8cc1-f17696a76834.3" configVersion="0ee8b6f050becc4d9e8c5dfacc19f11800000000"/>
 		<Metadata name="Catalog.ирАлгоритмы.ObjectModule" id="cd070a4a-6274-4576-8cc1-f17696a76834.0" configVersion="fa18c179c6ffe84eb6063dea9cd5f8ab00000000"/>
 		<Metadata name="Catalog.ирКомандаРедактироватьОбъект" id="a9cd2a4c-c382-480a-a66b-a11afcc18f6a" configVersion="c3c158984ad60b4fb96c2d8b098f5b0200000000"/>
@@ -42,8 +42,8 @@
 		<Metadata name="Catalog.ирОбъектыДляОтладки.Command.Отладить.CommandModule" id="0845090e-4984-411a-b33b-29754d5de468.2" configVersion="ba6ef3e1e506714d83bebb8a21f9932600000000"/>
 		<Metadata name="Catalog.ирОбъектыДляОтладки.Form.ФормаСписка" id="2be6eae3-1743-49aa-afb0-66a78bcb06b5" configVersion="be8b1f3462a183458ee10b8d44a17c7500000000"/>
 		<Metadata name="Catalog.ирОбъектыДляОтладки.Form.ФормаСписка.Form" id="2be6eae3-1743-49aa-afb0-66a78bcb06b5.0" configVersion="4fa0d0e990d08e42bf9bfce8957a14e500000000"/>
-		<Metadata name="Catalog.ирОбъектыДляОтладки.Form.ФормаСпискаУП" id="ea4af7e5-9108-491f-b295-ffa7865d5c23" configVersion="6d5bc043e09e2f4db51e387b751bf9e400000000"/>
-		<Metadata name="Catalog.ирОбъектыДляОтладки.Form.ФормаСпискаУП.Form" id="ea4af7e5-9108-491f-b295-ffa7865d5c23.0" configVersion="4d9dc5f34fc939468bf95de2ae77890e00000000"/>
+		<Metadata name="Catalog.ирОбъектыДляОтладки.Form.ФормаСпискаУП" id="ea4af7e5-9108-491f-b295-ffa7865d5c23" configVersion="b70d404abb1f554e807251f5367e740800000000"/>
+		<Metadata name="Catalog.ирОбъектыДляОтладки.Form.ФормаСпискаУП.Form" id="ea4af7e5-9108-491f-b295-ffa7865d5c23.0" configVersion="0fc04dfbeea26f43becf6e48ea4ad2d400000000"/>
 		<Metadata name="Catalog.ирОбъектыДляОтладки.ManagerModule" id="0b111e2f-55fc-4a23-a47a-5f6416eaf394.3" configVersion="50167a19cb73be41887cc28db6c0db8b00000000"/>
 		<Metadata name="Catalog.ирОбъектыДляОтладки.ObjectModule" id="0b111e2f-55fc-4a23-a47a-5f6416eaf394.0" configVersion="c482f45d463f4b44992644b8c4e740a400000000"/>
 		<Metadata name="CommandGroup.ирАдминистрирование" id="c8a62d08-b23f-4333-9863-58f41a709135" configVersion="e953a44c237c344cb2af3eafafe92cde00000000"/>
@@ -62,18 +62,18 @@
 		<Metadata name="CommonModule.ирДополнительныеОтчетыИОбработкиБСП.Module" id="0731d130-5346-4d15-b4ba-3c3af210b5af.0" configVersion="76ccac928785a7479fb9679f874ce6bd00000000"/>
 		<Metadata name="CommonModule.ирИнтерфейсДляВстраивания" id="8ed0c94b-0c03-471f-9bec-8c8faaa6e290" configVersion="e09e645412da9243a27af620ee8a060100000000"/>
 		<Metadata name="CommonModule.ирИнтерфейсДляВстраивания.Module" id="8ed0c94b-0c03-471f-9bec-8c8faaa6e290.0" configVersion="2cbaddcfe8c9af439f119872c7737bea00000000"/>
-		<Metadata name="CommonModule.ирКлиент" id="b1b745dc-34b4-46ee-a8b3-1926e1a27608" configVersion="a900a5a23e0c3b45a31bb546274cf6db00000000"/>
-		<Metadata name="CommonModule.ирКлиент.Module" id="b1b745dc-34b4-46ee-a8b3-1926e1a27608.0" configVersion="d2bdc5566d37364bae576ffb656dc5cc00000000"/>
+		<Metadata name="CommonModule.ирКлиент" id="b1b745dc-34b4-46ee-a8b3-1926e1a27608" configVersion="cc4be6a27177664fadba9173b834a8ff00000000"/>
+		<Metadata name="CommonModule.ирКлиент.Module" id="b1b745dc-34b4-46ee-a8b3-1926e1a27608.0" configVersion="c42eaa57f51f0e489bbd61ade3e61a5200000000"/>
 		<Metadata name="CommonModule.ирКэш" id="0aafe604-39f8-4db0-bf41-5b107f99bb2e" configVersion="1848e014736ee74c80db7b2d50fc69e300000000"/>
 		<Metadata name="CommonModule.ирКэш.Module" id="0aafe604-39f8-4db0-bf41-5b107f99bb2e.0" configVersion="d7e1a96177ea544581414a239d15b5e100000000"/>
-		<Metadata name="CommonModule.ирОбщий" id="ad8f9897-ed33-465e-abb0-2fff0b04813f" configVersion="39cbe48ae7a4214a8e5bd7abb1c047c000000000"/>
-		<Metadata name="CommonModule.ирОбщий.Module" id="ad8f9897-ed33-465e-abb0-2fff0b04813f.0" configVersion="23a1d3fc16c5df48985aa7c8981c698a00000000"/>
-		<Metadata name="CommonModule.ирОбщий83" id="ee64b92b-4dce-404f-bd31-355858eedb97" configVersion="cfa3513b722f7941a6b835de16deb96d00000000"/>
-		<Metadata name="CommonModule.ирОбщий83.Module" id="ee64b92b-4dce-404f-bd31-355858eedb97.0" configVersion="f63c67672bbc9b4abfc2d77ed39db7d100000000"/>
+		<Metadata name="CommonModule.ирОбщий" id="ad8f9897-ed33-465e-abb0-2fff0b04813f" configVersion="f1142efc34e92f49bb72484058b1c87900000000"/>
+		<Metadata name="CommonModule.ирОбщий.Module" id="ad8f9897-ed33-465e-abb0-2fff0b04813f.0" configVersion="17a61e9dba5fcd49bfeddd449484418400000000"/>
+		<Metadata name="CommonModule.ирОбщий83" id="ee64b92b-4dce-404f-bd31-355858eedb97" configVersion="b563a0479e38144b876f288275e3f2bd00000000"/>
+		<Metadata name="CommonModule.ирОбщий83.Module" id="ee64b92b-4dce-404f-bd31-355858eedb97.0" configVersion="b0eab03c065089439b22b71657acd96100000000"/>
 		<Metadata name="CommonModule.ирПортативный" id="a72577b8-211f-40be-bb34-05c6a3ffd205" configVersion="363e76e14265174a84ef538a5b55322f00000000"/>
 		<Metadata name="CommonModule.ирПортативный.Module" id="a72577b8-211f-40be-bb34-05c6a3ffd205.0" configVersion="cb38e0f93fb15f4d9584e8fe930090bf00000000"/>
-		<Metadata name="CommonModule.ирСервер" id="e3c2c9e1-a519-4acd-bc0a-d2f23b90ebd5" configVersion="a7d60a43cd9c184792563ecca991b4ed00000000"/>
-		<Metadata name="CommonModule.ирСервер.Module" id="e3c2c9e1-a519-4acd-bc0a-d2f23b90ebd5.0" configVersion="635cc91de99ece4d8c96b9f8e186b41100000000"/>
+		<Metadata name="CommonModule.ирСервер" id="e3c2c9e1-a519-4acd-bc0a-d2f23b90ebd5" configVersion="acc9523921cb0e4c95e64a467a3ab7fc00000000"/>
+		<Metadata name="CommonModule.ирСервер.Module" id="e3c2c9e1-a519-4acd-bc0a-d2f23b90ebd5.0" configVersion="2e804de3ed4c444ca9ee900eb6157cfb00000000"/>
 		<Metadata name="CommonPicture.ирADO" id="caf89f9b-667b-4f40-94d7-c32850a0541e" configVersion="c0780f1e28390043b483b84edf90cae800000000"/>
 		<Metadata name="CommonPicture.ирADO.Picture" id="caf89f9b-667b-4f40-94d7-c32850a0541e.0" configVersion="3dfc8e97589d1d49b55822d4095f87f500000000"/>
 		<Metadata name="CommonPicture.ирCOM" id="0b7d6ffe-17d1-43f2-87e1-fcc6498e9087" configVersion="834fdf39af05ff45b53eb699d73de38b00000000"/>
@@ -590,7 +590,7 @@
 		<Metadata name="CommonPicture.ирЯчейкаТаблицы.Picture" id="24432586-b730-4326-90db-d9e9e1dfc999.0" configVersion="8aefcd9b824de041bbf4cbc707993d6f00000000"/>
 		<Metadata name="CommonTemplate.ирШаблонРасширения" id="707abe9a-27ff-424f-a8c5-9b204feb7a87" configVersion="a46e335ef60c5a45bb1b14fd2263a8dd00000000"/>
 		<Metadata name="CommonTemplate.ирШаблонРасширения.Template" id="707abe9a-27ff-424f-a8c5-9b204feb7a87.0" configVersion="1e01f504c9fc034ab34e63ee89ba03be00000000"/>
-		<Metadata name="Configuration.ИнструментыРазработчика" id="6dfb797d-2e17-486d-8769-e566f427a20e" configVersion="5ababf10ace9ec4d84a3c843f89dc8ab00000000"/>
+		<Metadata name="Configuration.ИнструментыРазработчика" id="6dfb797d-2e17-486d-8769-e566f427a20e" configVersion="70601bc63756f34e896f3a152c36eb0300000000"/>
 		<Metadata name="Configuration.ИнструментыРазработчика.CommandInterface" id="f264e44e-804f-44ff-bbda-bd15d65a46e9.a" configVersion="bcf8ca0712b74840ab8efb108edbf0f900000000"/>
 		<Metadata name="Configuration.ИнструментыРазработчика.ExternalConnectionModule" id="f264e44e-804f-44ff-bbda-bd15d65a46e9.5" configVersion="7fb1c1b15382474da81ef6025cf2ba0500000000"/>
 		<Metadata name="Configuration.ИнструментыРазработчика.Logo" id="f264e44e-804f-44ff-bbda-bd15d65a46e9.1" configVersion="4fcf84fe54c5734f85fce08ed282f38200000000"/>
@@ -676,8 +676,8 @@
 		<Metadata name="DataProcessor.ирАнализЖурналаРегистрации.Command.Команда1.CommandModule" id="274d6b00-8d0d-421d-947b-c7fcf209361b.2" configVersion="c6b7360296763c44b8378fce3208e6f200000000"/>
 		<Metadata name="DataProcessor.ирАнализЖурналаРегистрации.Form.РедакторСписка" id="3df5df98-0b23-4153-a0ca-bd2849db72c3" configVersion="49d10d9a42888241b772f2387987a82200000000"/>
 		<Metadata name="DataProcessor.ирАнализЖурналаРегистрации.Form.РедакторСписка.Form" id="3df5df98-0b23-4153-a0ca-bd2849db72c3.0" configVersion="fe17f36c0b27124fb5b1053e9432bf2b00000000"/>
-		<Metadata name="DataProcessor.ирАнализЖурналаРегистрации.Form.Форма" id="2e3cf258-d595-4f74-ad20-36de9fc6a971" configVersion="0915bdaf65baea45b9a76e309978587100000000"/>
-		<Metadata name="DataProcessor.ирАнализЖурналаРегистрации.Form.Форма.Form" id="2e3cf258-d595-4f74-ad20-36de9fc6a971.0" configVersion="0eb1c7a018289e448622b92c5c00b3a800000000"/>
+		<Metadata name="DataProcessor.ирАнализЖурналаРегистрации.Form.Форма" id="2e3cf258-d595-4f74-ad20-36de9fc6a971" configVersion="386ee69825d0854b83fbba9cedeedf1000000000"/>
+		<Metadata name="DataProcessor.ирАнализЖурналаРегистрации.Form.Форма.Form" id="2e3cf258-d595-4f74-ad20-36de9fc6a971.0" configVersion="458d44db27a41548a58d0f1263627f8f00000000"/>
 		<Metadata name="DataProcessor.ирАнализЖурналаРегистрации.Form.ФормаСобытия" id="421590bd-154b-4542-a38b-1e976eb75cfc" configVersion="7aed7bb6beb13348b49c4670d81203ed00000000"/>
 		<Metadata name="DataProcessor.ирАнализЖурналаРегистрации.Form.ФормаСобытия.Form" id="421590bd-154b-4542-a38b-1e976eb75cfc.0" configVersion="c14f05f7bbd0a2438cbbae5e81b0a1a900000000"/>
 		<Metadata name="DataProcessor.ирАнализЖурналаРегистрации.ManagerModule" id="9be2d4f5-18c2-4260-b8e5-43569f366530.2" configVersion="7371a1669ef3174488430b1ee7d711eb00000000"/>
@@ -896,8 +896,8 @@
 		<Metadata name="DataProcessor.ирАнализТехножурнала.Form.СхемаБД.Form" id="a01f9e97-63e7-48ba-b17a-4eee1430dc21.0" configVersion="40ee4c90e8937c44b56a7e369651f73f00000000"/>
 		<Metadata name="DataProcessor.ирАнализТехножурнала.Form.Трассы" id="bd84fac2-b80c-4261-8ab4-dc0e05cb9ec1" configVersion="2cfdeb0d9862494e85db413fcb13708500000000"/>
 		<Metadata name="DataProcessor.ирАнализТехножурнала.Form.Трассы.Form" id="bd84fac2-b80c-4261-8ab4-dc0e05cb9ec1.0" configVersion="9de656ca06fa8746bc96569a46e7809500000000"/>
-		<Metadata name="DataProcessor.ирАнализТехножурнала.Form.Форма" id="2ed42f86-019e-4ab9-ae85-04e3bb1db73a" configVersion="9119d54f2f3bb9469b5bfd2ad10d203700000000"/>
-		<Metadata name="DataProcessor.ирАнализТехножурнала.Form.Форма.Form" id="2ed42f86-019e-4ab9-ae85-04e3bb1db73a.0" configVersion="eff43d35a8f8f14eb8e08792b9d084b500000000"/>
+		<Metadata name="DataProcessor.ирАнализТехножурнала.Form.Форма" id="2ed42f86-019e-4ab9-ae85-04e3bb1db73a" configVersion="12c317e0131b7445b92956b9477942be00000000"/>
+		<Metadata name="DataProcessor.ирАнализТехножурнала.Form.Форма.Form" id="2ed42f86-019e-4ab9-ae85-04e3bb1db73a.0" configVersion="8cf1dcb90b2ed54aaee5f3bc5849b68a00000000"/>
 		<Metadata name="DataProcessor.ирАнализТехножурнала.ManagerModule" id="60ceba88-118c-4610-9f8a-d8a6c0932ea0.2" configVersion="f7b77ef0a1d80c49a18267902aa1e79700000000"/>
 		<Metadata name="DataProcessor.ирАнализТехножурнала.ObjectModule" id="60ceba88-118c-4610-9f8a-d8a6c0932ea0.0" configVersion="74dd47aaad6f0f4bbc964bc139eb91aa00000000"/>
 		<Metadata name="DataProcessor.ирАнализТехножурнала.Template.SQLServer_СкриптПолученияДанныхРасширенныхСобытий" id="853297d6-3525-4b98-a80d-f115050da6a6" configVersion="84e67cabd460f34cae3a1004a02571fe00000000"/>
@@ -997,8 +997,8 @@
 		<Metadata name="DataProcessor.ирБазыПользователяОС.Command.Команда1.CommandModule" id="0a3e51cf-961c-4bb6-a5c2-d2f80e6afdde.2" configVersion="864f70d4f1c18d48a38be9a75efda7c800000000"/>
 		<Metadata name="DataProcessor.ирБазыПользователяОС.Form.Настройки" id="e0996a2b-ff1e-4e78-88c5-7662570a95bd" configVersion="9932eaa159eedc4b9876bfd370fe161d00000000"/>
 		<Metadata name="DataProcessor.ирБазыПользователяОС.Form.Настройки.Form" id="e0996a2b-ff1e-4e78-88c5-7662570a95bd.0" configVersion="e24eacad91a908499d91b16ffa58e98100000000"/>
-		<Metadata name="DataProcessor.ирБазыПользователяОС.Form.Список" id="c600bd2d-5972-4b20-af4a-50e1c0e4e41e" configVersion="58663daf0cca514986547228643db3a800000000"/>
-		<Metadata name="DataProcessor.ирБазыПользователяОС.Form.Список.Form" id="c600bd2d-5972-4b20-af4a-50e1c0e4e41e.0" configVersion="71ae613076b089409872c82dc97a509900000000"/>
+		<Metadata name="DataProcessor.ирБазыПользователяОС.Form.Список" id="c600bd2d-5972-4b20-af4a-50e1c0e4e41e" configVersion="dd3eef7ae1be9a42be754092aa9929e900000000"/>
+		<Metadata name="DataProcessor.ирБазыПользователяОС.Form.Список.Form" id="c600bd2d-5972-4b20-af4a-50e1c0e4e41e.0" configVersion="3477f32b99ad6547a7bdde1771c62f5200000000"/>
 		<Metadata name="DataProcessor.ирБазыПользователяОС.Form.УдалениеБаз" id="bc79a4b1-72b5-468c-b047-5a866e266983" configVersion="1379790f51b98d42b796c015200aa0fc00000000"/>
 		<Metadata name="DataProcessor.ирБазыПользователяОС.Form.УдалениеБаз.Form" id="bc79a4b1-72b5-468c-b047-5a866e266983.0" configVersion="c2c6f14ff3b7604a95562fe70fda223700000000"/>
 		<Metadata name="DataProcessor.ирБазыПользователяОС.Form.Элемент" id="b91c8c31-5d32-4a22-9b78-6ff7c8349283" configVersion="6d2c49a8a3538d46ac006266c1ea003000000000"/>
@@ -1045,8 +1045,8 @@
 			<Metadata name="DataProcessor.ирВыгрузкаЗагрузкаДанныхЧерезФайл.Attribute.КоличествоОбъектовВПорции" id="f192a30d-d7c4-4af1-8e1e-5fc3e82248f3"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ирВыгрузкаЗагрузкаДанныхЧерезФайл.Command.Команда1.CommandModule" id="a5bba1fe-5732-43e9-bc9d-fb4c11aef1e5.2" configVersion="ddd2f20866babf4586de42583065c26d00000000"/>
-		<Metadata name="DataProcessor.ирВыгрузкаЗагрузкаДанныхЧерезФайл.Form.Форма" id="54d80a86-f032-4e5f-87d7-9e9605d8445c" configVersion="fd6e8f1d33a92a46a6606d0f2c32a1f300000000"/>
-		<Metadata name="DataProcessor.ирВыгрузкаЗагрузкаДанныхЧерезФайл.Form.Форма.Form" id="54d80a86-f032-4e5f-87d7-9e9605d8445c.0" configVersion="a164a96966393c4db29901afcbc1c01900000000"/>
+		<Metadata name="DataProcessor.ирВыгрузкаЗагрузкаДанныхЧерезФайл.Form.Форма" id="54d80a86-f032-4e5f-87d7-9e9605d8445c" configVersion="8bb290dccd5d81409d7a00724f2cbdf900000000"/>
+		<Metadata name="DataProcessor.ирВыгрузкаЗагрузкаДанныхЧерезФайл.Form.Форма.Form" id="54d80a86-f032-4e5f-87d7-9e9605d8445c.0" configVersion="0ee49f069f0cf342ae03eec9404b153b00000000"/>
 		<Metadata name="DataProcessor.ирВыгрузкаЗагрузкаДанныхЧерезФайл.Help" id="5af54dbd-bb64-4fd5-8ae2-6eb18d986802.1" configVersion="2a6789d1c7d7d940a6250671161cfadb00000000"/>
 		<Metadata name="DataProcessor.ирВыгрузкаЗагрузкаДанныхЧерезФайл.ManagerModule" id="5af54dbd-bb64-4fd5-8ae2-6eb18d986802.2" configVersion="b78145d1ba789c45b23998ca7104978400000000"/>
 		<Metadata name="DataProcessor.ирВыгрузкаЗагрузкаДанныхЧерезФайл.ObjectModule" id="5af54dbd-bb64-4fd5-8ae2-6eb18d986802.0" configVersion="690800e7779cd649ae7a9064fded41ef00000000"/>
@@ -1079,8 +1079,8 @@
 		<Metadata name="DataProcessor.ирДинамическийСписок.Form.НастройкиСпискаУпр.Help" id="e3cc3f48-8282-4867-8495-5a260e105491.1" configVersion="22ecc86109f6334a99510ba3b3f9e09c00000000"/>
 		<Metadata name="DataProcessor.ирДинамическийСписок.Form.Форма" id="39af25eb-2c5d-4489-aa23-5cb4a62b9ff7" configVersion="db152eb5c75ae7479d14679e66bbea9e00000000"/>
 		<Metadata name="DataProcessor.ирДинамическийСписок.Form.Форма.Form" id="39af25eb-2c5d-4489-aa23-5cb4a62b9ff7.0" configVersion="91a59569f616e140b91289d46092771700000000"/>
-		<Metadata name="DataProcessor.ирДинамическийСписок.Form.ФормаУпр" id="9700b528-caa4-4d0e-b669-29181c8306a3" configVersion="e2b6fadb50a20640aef507c08acc087500000000"/>
-		<Metadata name="DataProcessor.ирДинамическийСписок.Form.ФормаУпр.Form" id="9700b528-caa4-4d0e-b669-29181c8306a3.0" configVersion="82e27fa3f912fa419fc5f515f75bf99900000000"/>
+		<Metadata name="DataProcessor.ирДинамическийСписок.Form.ФормаУпр" id="9700b528-caa4-4d0e-b669-29181c8306a3" configVersion="656c52962cf98144a72d465039c9921700000000"/>
+		<Metadata name="DataProcessor.ирДинамическийСписок.Form.ФормаУпр.Form" id="9700b528-caa4-4d0e-b669-29181c8306a3.0" configVersion="5c06b530ff9a9f4bb6dd9b5b10d21f0d00000000"/>
 		<Metadata name="DataProcessor.ирДинамическийСписок.ManagerModule" id="74f02185-54d7-4a9e-8ad5-f93fc6f0d12a.2" configVersion="3628bdc7f1117c4fa5ea40daa432f61300000000"/>
 		<Metadata name="DataProcessor.ирДинамическийСписок.ObjectModule" id="74f02185-54d7-4a9e-8ad5-f93fc6f0d12a.0" configVersion="28e57e9bd099de45a128a7ebc3c703fa00000000"/>
 		<Metadata name="DataProcessor.ирЗагрузкаТабличныхДанных" id="96d61593-6b55-4255-a5ff-3cabc2a6f08c" configVersion="8fea162f620fa74cab42dca373bdd73000000000">
@@ -1129,10 +1129,10 @@
 			<Metadata name="DataProcessor.ирЗагрузкаТабличныхДанных.TabularSection.ОшибкиКонвертации.Attribute.Ошибка" id="f898be94-780f-4033-b7be-bd597f64f86c"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ирЗагрузкаТабличныхДанных.Command.Команда1.CommandModule" id="9d9728ea-8431-4e36-b2b6-d4dd7ac4d6f4.2" configVersion="5a03a6c6cbad664bb90a89f0e1a735f600000000"/>
-		<Metadata name="DataProcessor.ирЗагрузкаТабличныхДанных.Form.Форма" id="be21a82c-5d00-4c4e-9e8d-cb30d00d40eb" configVersion="c30ceeb19492d34b90ca7bb1aa23b0a300000000"/>
-		<Metadata name="DataProcessor.ирЗагрузкаТабличныхДанных.Form.Форма.Form" id="be21a82c-5d00-4c4e-9e8d-cb30d00d40eb.0" configVersion="9a0ffe85faa0ae40a25949f5b7f24e1d00000000"/>
-		<Metadata name="DataProcessor.ирЗагрузкаТабличныхДанных.Form.ФормаВыбораЗначения" id="a96d8ee1-11b2-4191-b7ec-50cbdcfbc939" configVersion="9ba339e06aa45c46a8b2dd3a8b124f2a00000000"/>
-		<Metadata name="DataProcessor.ирЗагрузкаТабличныхДанных.Form.ФормаВыбораЗначения.Form" id="a96d8ee1-11b2-4191-b7ec-50cbdcfbc939.0" configVersion="ec1cf461da04da448470f81eec444b2300000000"/>
+		<Metadata name="DataProcessor.ирЗагрузкаТабличныхДанных.Form.Форма" id="be21a82c-5d00-4c4e-9e8d-cb30d00d40eb" configVersion="b91d778fae28ef408a9522e803beaee900000000"/>
+		<Metadata name="DataProcessor.ирЗагрузкаТабличныхДанных.Form.Форма.Form" id="be21a82c-5d00-4c4e-9e8d-cb30d00d40eb.0" configVersion="4c533225a67b4d419859ce797892847600000000"/>
+		<Metadata name="DataProcessor.ирЗагрузкаТабличныхДанных.Form.ФормаВыбораЗначения" id="a96d8ee1-11b2-4191-b7ec-50cbdcfbc939" configVersion="b931e7d3305be243889b20fed04d814d00000000"/>
+		<Metadata name="DataProcessor.ирЗагрузкаТабличныхДанных.Form.ФормаВыбораЗначения.Form" id="a96d8ee1-11b2-4191-b7ec-50cbdcfbc939.0" configVersion="fcf5cc9164613b4c977fe8ab551bb1c000000000"/>
 		<Metadata name="DataProcessor.ирЗагрузкаТабличныхДанных.ManagerModule" id="96d61593-6b55-4255-a5ff-3cabc2a6f08c.2" configVersion="445e2c11a9c80d46a623e3096bd260f800000000"/>
 		<Metadata name="DataProcessor.ирЗагрузкаТабличныхДанных.ObjectModule" id="96d61593-6b55-4255-a5ff-3cabc2a6f08c.0" configVersion="dd3d1e22433b6b428fcefa185923a4d700000000"/>
 		<Metadata name="DataProcessor.ирЗагрузкаТабличныхДанных.Template.АлгоритмПередЗагрузкойСтроки" id="d52bdd97-2636-49d9-9aa1-f30351e72a6a" configVersion="77990bd321a2c84bbf0e901dbd9e3c8b00000000"/>
@@ -1240,10 +1240,10 @@
 			<Metadata name="DataProcessor.ирИсследовательОбъектов.Command.Команда1" id="3e9774b1-5245-4863-a3ba-30c3f65f613b"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ирИсследовательОбъектов.Command.Команда1.CommandModule" id="3e9774b1-5245-4863-a3ba-30c3f65f613b.2" configVersion="613cdf4c96ed6f40895fdc31dc1d926e00000000"/>
-		<Metadata name="DataProcessor.ирИсследовательОбъектов.Form.ИсследовательКоллекций" id="1f6ee688-932d-417b-855a-0d29ef601739" configVersion="efc22ae9b8407b4e88f5f17463924cd200000000"/>
-		<Metadata name="DataProcessor.ирИсследовательОбъектов.Form.ИсследовательКоллекций.Form" id="1f6ee688-932d-417b-855a-0d29ef601739.0" configVersion="8c6ad232ac5f9645a2dce95e525ea7ff00000000"/>
-		<Metadata name="DataProcessor.ирИсследовательОбъектов.Form.ИсследовательОбъектов" id="f80ad19e-c5db-4ccd-939c-302a473c9dfc" configVersion="7aedb899af17ae4284c1b7329e12464300000000"/>
-		<Metadata name="DataProcessor.ирИсследовательОбъектов.Form.ИсследовательОбъектов.Form" id="f80ad19e-c5db-4ccd-939c-302a473c9dfc.0" configVersion="c4dc109e4807f747b43a512c4e78e26000000000"/>
+		<Metadata name="DataProcessor.ирИсследовательОбъектов.Form.ИсследовательКоллекций" id="1f6ee688-932d-417b-855a-0d29ef601739" configVersion="edb29ff318e664438204d143f5fa50cb00000000"/>
+		<Metadata name="DataProcessor.ирИсследовательОбъектов.Form.ИсследовательКоллекций.Form" id="1f6ee688-932d-417b-855a-0d29ef601739.0" configVersion="8e3f10ee6d6da944aab4892af1802d2100000000"/>
+		<Metadata name="DataProcessor.ирИсследовательОбъектов.Form.ИсследовательОбъектов" id="f80ad19e-c5db-4ccd-939c-302a473c9dfc" configVersion="3e095845603fbf4ba3f4550aa6eb4bfb00000000"/>
+		<Metadata name="DataProcessor.ирИсследовательОбъектов.Form.ИсследовательОбъектов.Form" id="f80ad19e-c5db-4ccd-939c-302a473c9dfc.0" configVersion="ed70c20ba7990840950ee23c40a57eb500000000"/>
 		<Metadata name="DataProcessor.ирИсследовательОбъектов.ManagerModule" id="bcbb8509-4b44-47dc-9430-5b538d5630f0.2" configVersion="793a73bb44bbd94da7796012c1f9de1800000000"/>
 		<Metadata name="DataProcessor.ирИсследовательОбъектов.ObjectModule" id="bcbb8509-4b44-47dc-9430-5b538d5630f0.0" configVersion="1b2bdf1492a87442ba86ffee52ab15f500000000"/>
 		<Metadata name="DataProcessor.ирИсторияГита" id="413c6400-2fbd-4710-b039-32d355470e71" configVersion="fd6d1dbce53cb544b236e24ddc921f1900000000">
@@ -1280,8 +1280,8 @@
 		<Metadata name="DataProcessor.ирИсторияГита.Form.ИзмененныеМодули.Form" id="130bdb4f-1f2c-44b0-99cc-fe943519f037.0" configVersion="6f358ab9c2c76c458ad6011947d5f30000000000"/>
 		<Metadata name="DataProcessor.ирИсторияГита.Form.ОбновлениеИзEDT" id="7fe0fb5f-f463-426d-876d-d38233b1ff7d" configVersion="0a88db01e51b33428239ff59f44ccbed00000000"/>
 		<Metadata name="DataProcessor.ирИсторияГита.Form.ОбновлениеИзEDT.Form" id="7fe0fb5f-f463-426d-876d-d38233b1ff7d.0" configVersion="1c88e2f9b7152d4185cdc0e87aabefd500000000"/>
-		<Metadata name="DataProcessor.ирИсторияГита.Form.Форма" id="4e7d89fb-39d5-49de-a5e2-8f656b8f9fd8" configVersion="a6aa878ca020454982f978cbdbfe787300000000"/>
-		<Metadata name="DataProcessor.ирИсторияГита.Form.Форма.Form" id="4e7d89fb-39d5-49de-a5e2-8f656b8f9fd8.0" configVersion="8c8e5ad04d55d14ea1faec60e00e6c6300000000"/>
+		<Metadata name="DataProcessor.ирИсторияГита.Form.Форма" id="4e7d89fb-39d5-49de-a5e2-8f656b8f9fd8" configVersion="710f654cdbfb204a8e42c0051544d67600000000"/>
+		<Metadata name="DataProcessor.ирИсторияГита.Form.Форма.Form" id="4e7d89fb-39d5-49de-a5e2-8f656b8f9fd8.0" configVersion="e1342603cda89241ba0d2cbff35262c200000000"/>
 		<Metadata name="DataProcessor.ирИсторияГита.Help" id="413c6400-2fbd-4710-b039-32d355470e71.1" configVersion="670d38e070457043be47fd3d1e62c34200000000"/>
 		<Metadata name="DataProcessor.ирИсторияГита.ManagerModule" id="413c6400-2fbd-4710-b039-32d355470e71.2" configVersion="334af09ab2c9a743af240970eacc295100000000"/>
 		<Metadata name="DataProcessor.ирИсторияГита.ObjectModule" id="413c6400-2fbd-4710-b039-32d355470e71.0" configVersion="e9e627a93a5d634f95e35fae4283cf2f00000000"/>
@@ -1356,7 +1356,7 @@
 		<Metadata name="DataProcessor.ирКлсПолеТабличногоДокумента.Help" id="97cbab0a-d757-4b36-8acc-c49b92e08aed.1" configVersion="aa403b1909f0fc4790f9eb34b367401f00000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТабличногоДокумента.ManagerModule" id="97cbab0a-d757-4b36-8acc-c49b92e08aed.2" configVersion="4629e8d5da26804da6af06dfc854ab6e00000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТабличногоДокумента.ObjectModule" id="97cbab0a-d757-4b36-8acc-c49b92e08aed.0" configVersion="2997aa2ddaa6964eb84f81033108a8a900000000"/>
-		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы" id="1d8bb7c9-8dce-46a3-8984-8fd1b5f272bc" configVersion="8821bcb2a93f4c408bfc4d3153f4444d00000000">
+		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы" id="1d8bb7c9-8dce-46a3-8984-8fd1b5f272bc" configVersion="6ee7d71346809845803b0473b521383600000000">
 			<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.TabularSection.ВызовыСлова.Attribute.Параметр17" id="0323571d-c34c-4f7d-ab9e-cb346d58f070"/>
 			<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.TabularSection.ОшибкиМодуля.Attribute.Модуль" id="03c1e780-e443-4118-b64d-87d2150a6ea7"/>
 			<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.TabularSection.ДоступныеТаблицы.Attribute.ЕстьДоступ" id="03d58615-37cc-49d6-ae4b-29a2425a7a7a"/>
@@ -1502,20 +1502,20 @@
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ВызовМетода.Form" id="5ad06ae4-c0d2-4f52-9d2b-775ae0d1890c.0" configVersion="eadc306db808984ba383abfd19a0843900000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ВыражениеЗапросаИзСтрокиВЧисло" id="3bb6ed34-fa33-470a-a8d8-4e5ec7cb2434" configVersion="5396391e1237774bacbba30203abc63600000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ВыражениеЗапросаИзСтрокиВЧисло.Form" id="3bb6ed34-fa33-470a-a8d8-4e5ec7cb2434.0" configVersion="02942a358a3d4b48bd47ecb792aea30100000000"/>
-		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ДеревоВызовов" id="e335cc9d-0ad7-4264-bc38-d0f09caec948" configVersion="334540a8c931ae46807c0f9380d116f800000000"/>
-		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ДеревоВызовов.Form" id="e335cc9d-0ad7-4264-bc38-d0f09caec948.0" configVersion="8480e005f779834cac7fd516d8775c9000000000"/>
+		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ДеревоВызовов" id="e335cc9d-0ad7-4264-bc38-d0f09caec948" configVersion="992aca502c15c841bae3e530f094977300000000"/>
+		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ДеревоВызовов.Form" id="e335cc9d-0ad7-4264-bc38-d0f09caec948.0" configVersion="70d803918c40104187588cb21de5c70600000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ДеревоСвязейПоля" id="b25e1480-10e6-4363-9e53-fc7379e38d40" configVersion="249f9b9c835b3549a53b4ed645b1fc5300000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ДеревоСвязейПоля.Form" id="b25e1480-10e6-4363-9e53-fc7379e38d40.0" configVersion="912631ff416a3a47964a0c107147ded300000000"/>
-		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.КонструкторЗапроса" id="5f3aa501-40e2-4925-a2c6-191a3f815b8e" configVersion="cf4058de67235d459218edfbcfbd9d8a00000000"/>
-		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.КонструкторЗапроса.Form" id="5f3aa501-40e2-4925-a2c6-191a3f815b8e.0" configVersion="9929c2d1b474a9409ee629d10235273300000000"/>
+		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.КонструкторЗапроса" id="5f3aa501-40e2-4925-a2c6-191a3f815b8e" configVersion="988964578785504db866739fcef15bd300000000"/>
+		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.КонструкторЗапроса.Form" id="5f3aa501-40e2-4925-a2c6-191a3f815b8e.0" configVersion="1bd99dfeb51b5247a8dd3c5d780baf7d00000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.КонструкторМетода" id="b992a85c-4b14-4c67-b35c-52e77fcadd5d" configVersion="21262852db903d49830b307d1b99b34100000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.КонструкторМетода.Form" id="b992a85c-4b14-4c67-b35c-52e77fcadd5d.0" configVersion="ce593d3004da88488f61ff484ff574cf00000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.КонтекстныеВызовы" id="96a71cd8-545f-4eab-afd3-5a9313e22d1c" configVersion="d8e8b845462da245b4bf63147f63bc2900000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.КонтекстныеВызовы.Form" id="96a71cd8-545f-4eab-afd3-5a9313e22d1c.0" configVersion="bc873bd932dc7b40945f77669be25ec700000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.МетодыМодулей" id="6641beab-f3dc-4456-8efe-64b80af8eb8c" configVersion="10e5266534497848a60178fc5225243c00000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.МетодыМодулей.Form" id="6641beab-f3dc-4456-8efe-64b80af8eb8c.0" configVersion="6a6bb3a9531bfc45a0b6eae25f32f79c00000000"/>
-		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.Настройки" id="84cf02fc-d198-4ef7-8399-11ffafb929d0" configVersion="f388f65bd66cd84c89f5ab0e50705b0e00000000"/>
-		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.Настройки.Form" id="84cf02fc-d198-4ef7-8399-11ffafb929d0.0" configVersion="a829a64ff0218f4aa459ae040e41b01b00000000"/>
+		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.Настройки" id="84cf02fc-d198-4ef7-8399-11ffafb929d0" configVersion="ed72244afb1ff4428bb2fec75515d85900000000"/>
+		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.Настройки.Form" id="84cf02fc-d198-4ef7-8399-11ffafb929d0.0" configVersion="87aa7d10d5cbd94b9d9a3d2a835c6c5700000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.НастройкиКонструктораЗапроса" id="c2599bbf-458b-4e15-9fa2-2b0e9bb2d3a4" configVersion="c7001cea4c906a428bd50ca7d8fba83800000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.НастройкиКонструктораЗапроса.Form" id="c2599bbf-458b-4e15-9fa2-2b0e9bb2d3a4.0" configVersion="d64834dd096e87419fe7f99869706b2e00000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ОтправкаМетаданныхНапарнику" id="f01ba539-3e45-4c47-96d8-31443307bc18" configVersion="7884079a5fe43e4d8a5ef940bddcdc8d00000000"/>
@@ -1524,19 +1524,19 @@
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ОшибкиМодуля.Form" id="75041f38-a044-483a-a180-0e43c098fa24.0" configVersion="7d5b0608edc67c41980eab72575d4ef400000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ПараметрыЗаполненияМетодаИИ" id="911cf36e-cdc2-47da-a34e-2987845efe33" configVersion="3d7080183f6b9c40bac7563a9d38ec0e00000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ПараметрыЗаполненияМетодаИИ.Form" id="911cf36e-cdc2-47da-a34e-2987845efe33.0" configVersion="a15f9f6b5cfb2944947059fce9a9f82300000000"/>
-		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ПереименоватьСлово" id="fac7fb86-bc03-40fc-82a1-f8ed759e0811" configVersion="38b53f9fc553d845a22fbc3303c239f300000000"/>
-		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ПереименоватьСлово.Form" id="fac7fb86-bc03-40fc-82a1-f8ed759e0811.0" configVersion="500e0d552a6cc746842a870438d5967100000000"/>
-		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ПоискВМодулях" id="13bda625-8332-4e0c-a75b-da9878b8e9f3" configVersion="97386b09a314a842babe3ce4eb8a071800000000"/>
-		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ПоискВМодулях.Form" id="13bda625-8332-4e0c-a75b-da9878b8e9f3.0" configVersion="b68299fee3fe524f9cc05ad0524432af00000000"/>
+		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ПереименоватьСлово" id="fac7fb86-bc03-40fc-82a1-f8ed759e0811" configVersion="a1ad6f9821f1ee47ab11b863596a06b800000000"/>
+		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ПереименоватьСлово.Form" id="fac7fb86-bc03-40fc-82a1-f8ed759e0811.0" configVersion="2937d4d73c3eb547a39a76a068d186f900000000"/>
+		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ПоискВМодулях" id="13bda625-8332-4e0c-a75b-da9878b8e9f3" configVersion="cc27f51bf7adf7479839d41e70a6aa7400000000"/>
+		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ПоискВМодулях.Form" id="13bda625-8332-4e0c-a75b-da9878b8e9f3.0" configVersion="6fd8061ac304d1409aea1afb4ede078400000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.РедакторВыраженияЗапроса" id="7b7fad70-fbed-4bb2-b030-4f22030e28cc" configVersion="5a58c17df8406549aede00a1055b12d600000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.РедакторВыраженияЗапроса.Form" id="7b7fad70-fbed-4bb2-b030-4f22030e28cc.0" configVersion="aeef13d401edb742a8974f27bd70c25100000000"/>
-		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ФормаМакет" id="f3b58f21-fa6a-4cd8-80e9-be68d5055d65" configVersion="9cf633ea193b0e40b14c827ad90446e900000000"/>
-		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ФормаМакет.Form" id="f3b58f21-fa6a-4cd8-80e9-be68d5055d65.0" configVersion="97aa2b90544fd34f8cd4b22b1180d12200000000"/>
+		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ФормаМакет" id="f3b58f21-fa6a-4cd8-80e9-be68d5055d65" configVersion="8a1a585735bdcc49a513a7125a4066e200000000"/>
+		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ФормаМакет.Form" id="f3b58f21-fa6a-4cd8-80e9-be68d5055d65.0" configVersion="bf6b61986d761a4ba5904b77ca6418ca00000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ФормаПример" id="2ff7865f-f8c9-450a-853e-8ad9300d7398" configVersion="a689707cd81dd4449c91790f4f69284d00000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Form.ФормаПример.Form" id="2ff7865f-f8c9-450a-853e-8ad9300d7398.0" configVersion="2d809d5524baf1498e19142e5a0a9fcd00000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Help" id="1d8bb7c9-8dce-46a3-8984-8fd1b5f272bc.1" configVersion="47022b52321243429bf0a3b248221ef400000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.ManagerModule" id="1d8bb7c9-8dce-46a3-8984-8fd1b5f272bc.2" configVersion="741cb59fbeaf3e479ea254af75182cf700000000"/>
-		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.ObjectModule" id="1d8bb7c9-8dce-46a3-8984-8fd1b5f272bc.0" configVersion="47a3196d99b2c84da8e0d8012f58844600000000"/>
+		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.ObjectModule" id="1d8bb7c9-8dce-46a3-8984-8fd1b5f272bc.0" configVersion="14d330d01bffcf41aa94e679d42c57b400000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Template.ДиалектыSQL" id="8543b06e-32cf-4010-b0ae-b82dcd1108c5" configVersion="973ceb1e4c8cdc459e9ba19f1a32128200000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Template.ДиалектыSQL.Template" id="8543b06e-32cf-4010-b0ae-b82dcd1108c5.0" configVersion="a5af1868d374d3449568a2b6ada5928700000000"/>
 		<Metadata name="DataProcessor.ирКлсПолеТекстаПрограммы.Template.СочетанияКлавишHTML" id="c5b5d867-061c-4f55-9f6b-2d27b079cff0" configVersion="6e87727c5dc15a4eadbdc9aedb6e427a00000000"/>
@@ -1608,8 +1608,8 @@
 		<Metadata name="DataProcessor.ирКонсольHTTPЗапросов.Command.Команда1.CommandModule" id="0ad91f36-d2f7-425b-b729-63fb25b84aa7.2" configVersion="8b357762cb3fd240b06f5313c2022d7d00000000"/>
 		<Metadata name="DataProcessor.ирКонсольHTTPЗапросов.Form.Прокси" id="02205039-1127-4fcd-9a32-6f5b41ce9e34" configVersion="94f1168287f64146b0b4e336af0a972800000000"/>
 		<Metadata name="DataProcessor.ирКонсольHTTPЗапросов.Form.Прокси.Form" id="02205039-1127-4fcd-9a32-6f5b41ce9e34.0" configVersion="1325612853d10e44adcddea8b2fd20a300000000"/>
-		<Metadata name="DataProcessor.ирКонсольHTTPЗапросов.Form.Форма" id="0cbeefdc-352d-45c7-9979-42083ece0662" configVersion="9feb647a6b8fd34686a8c2b0ec83766000000000"/>
-		<Metadata name="DataProcessor.ирКонсольHTTPЗапросов.Form.Форма.Form" id="0cbeefdc-352d-45c7-9979-42083ece0662.0" configVersion="7aa34d1c38799f418e45956544ee32d900000000"/>
+		<Metadata name="DataProcessor.ирКонсольHTTPЗапросов.Form.Форма" id="0cbeefdc-352d-45c7-9979-42083ece0662" configVersion="c21cffab4a28174d89bc93f15a79b2d300000000"/>
+		<Metadata name="DataProcessor.ирКонсольHTTPЗапросов.Form.Форма.Form" id="0cbeefdc-352d-45c7-9979-42083ece0662.0" configVersion="366d4d71eb2db642b110920590b937f400000000"/>
 		<Metadata name="DataProcessor.ирКонсольHTTPЗапросов.ManagerModule" id="47c2121b-de16-4401-af60-06210a17cecc.2" configVersion="445068e4f26a794786986910eb3dfd5000000000"/>
 		<Metadata name="DataProcessor.ирКонсольHTTPЗапросов.ObjectModule" id="47c2121b-de16-4401-af60-06210a17cecc.0" configVersion="1c0d1a6c14b9564c8b4655e8c013a2a200000000"/>
 		<Metadata name="DataProcessor.ирКонсольHTTPЗапросов.Template.АлгоритмПередСоединением" id="76181022-944a-4904-bbe3-fd2bee9b35d5" configVersion="c2349261ea01b94fa89ec721bbb2385700000000"/>
@@ -1640,8 +1640,8 @@
 		<Metadata name="DataProcessor.ирКонсольЗаданий.Form.ДиалогОтбораРегламентногоЗадания.Form" id="c50943cb-f813-4000-9df2-860efaca2a19.0" configVersion="96f35b153936494092515ec09382d8ea00000000"/>
 		<Metadata name="DataProcessor.ирКонсольЗаданий.Form.ДиалогОтбораФоновогоЗадания" id="b27bf7e4-2730-4c2e-bf75-4584ac5f11eb" configVersion="63d0fd9f49d52446b25467ebbec84b2200000000"/>
 		<Metadata name="DataProcessor.ирКонсольЗаданий.Form.ДиалогОтбораФоновогоЗадания.Form" id="b27bf7e4-2730-4c2e-bf75-4584ac5f11eb.0" configVersion="53b3534fbe06744c869af4b29cafcbc500000000"/>
-		<Metadata name="DataProcessor.ирКонсольЗаданий.Form.ДиалогРегламентногоЗадания" id="559187fb-5e4d-42c9-ae06-a6b8afb52e45" configVersion="55ed447a75f91643b5ea9a30cad8f1ec00000000"/>
-		<Metadata name="DataProcessor.ирКонсольЗаданий.Form.ДиалогРегламентногоЗадания.Form" id="559187fb-5e4d-42c9-ae06-a6b8afb52e45.0" configVersion="c6e77ee2257a4b4e9744326bd017440100000000"/>
+		<Metadata name="DataProcessor.ирКонсольЗаданий.Form.ДиалогРегламентногоЗадания" id="559187fb-5e4d-42c9-ae06-a6b8afb52e45" configVersion="e0ecbfd2f94399418919ab0f72875a8500000000"/>
+		<Metadata name="DataProcessor.ирКонсольЗаданий.Form.ДиалогРегламентногоЗадания.Form" id="559187fb-5e4d-42c9-ae06-a6b8afb52e45.0" configVersion="1493428fe7d4dd4bb481cd001168a3d700000000"/>
 		<Metadata name="DataProcessor.ирКонсольЗаданий.Form.ДиалогФоновогоЗадания" id="51d8d1da-e3e3-4db3-ad27-043a0e06372e" configVersion="1eccebbd7cfc2e408b225dfb7d357b4b00000000"/>
 		<Metadata name="DataProcessor.ирКонсольЗаданий.Form.ДиалогФоновогоЗадания.Form" id="51d8d1da-e3e3-4db3-ad27-043a0e06372e.0" configVersion="fe27f3d2782fa049b0fb916264ba93fa00000000"/>
 		<Metadata name="DataProcessor.ирКонсольЗаданий.Form.ИнтервалыРаботыФоновыхЗаданий" id="7ffe0f12-9f7d-4c6c-bafe-a243acbabbdb" configVersion="af038abfe8031042bb9780b1335e99ed00000000"/>
@@ -1674,8 +1674,8 @@
 		<Metadata name="DataProcessor.ирКонсольЗапросов.Form.Настройки.Help" id="7c44e2ae-2708-40dc-8fd4-9cfb9ec2fa0e.1" configVersion="80167477f61b3243a94e702c8d0f212900000000"/>
 		<Metadata name="DataProcessor.ирКонсольЗапросов.Form.ПомещениеВоВременнуюТаблицу" id="990f64af-0949-4e5e-a040-0da3770b9332" configVersion="3d19fecad6b34c48bea9d738bce9d5fa00000000"/>
 		<Metadata name="DataProcessor.ирКонсольЗапросов.Form.ПомещениеВоВременнуюТаблицу.Form" id="990f64af-0949-4e5e-a040-0da3770b9332.0" configVersion="b796d7b955149541b164aa08a7c1fd4d00000000"/>
-		<Metadata name="DataProcessor.ирКонсольЗапросов.Form.Форма" id="9dd110c1-44b8-4227-b2d7-66657daaba8f" configVersion="28ee54d820734342a65a0bfd879172e400000000"/>
-		<Metadata name="DataProcessor.ирКонсольЗапросов.Form.Форма.Form" id="9dd110c1-44b8-4227-b2d7-66657daaba8f.0" configVersion="fdc42f79198bf4449e0ea44088e3105000000000"/>
+		<Metadata name="DataProcessor.ирКонсольЗапросов.Form.Форма" id="9dd110c1-44b8-4227-b2d7-66657daaba8f" configVersion="a7b132b8f8774842bf512a3be8dc620100000000"/>
+		<Metadata name="DataProcessor.ирКонсольЗапросов.Form.Форма.Form" id="9dd110c1-44b8-4227-b2d7-66657daaba8f.0" configVersion="06d762701792484d8824a32630b9934000000000"/>
 		<Metadata name="DataProcessor.ирКонсольЗапросов.Form.Форма.Help" id="9dd110c1-44b8-4227-b2d7-66657daaba8f.1" configVersion="a8783f2f84aaaf43a52296632c49205000000000"/>
 		<Metadata name="DataProcessor.ирКонсольЗапросов.Form.ФормаНастройки" id="8dab503c-fe5a-45b0-907e-bac31435d0f8" configVersion="f532088dcd31a34186133f17f4e16d7500000000"/>
 		<Metadata name="DataProcessor.ирКонсольЗапросов.Form.ФормаНастройки.Form" id="8dab503c-fe5a-45b0-907e-bac31435d0f8.0" configVersion="06626f6cbd77374c8c6ba9311707911800000000"/>
@@ -1691,8 +1691,8 @@
 			<Metadata name="DataProcessor.ирКонсольКода.Command.Команда1" id="cd72b562-2c52-4a37-aaea-c8733b927574"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ирКонсольКода.Command.Команда1.CommandModule" id="cd72b562-2c52-4a37-aaea-c8733b927574.2" configVersion="01e11c6cb91c4740ba4d6811449e521a00000000"/>
-		<Metadata name="DataProcessor.ирКонсольКода.Form.Форма" id="05fcf94a-0377-449c-bf64-580ad24cd504" configVersion="3b4fa8d88e46d741bf12d60bcd241ef000000000"/>
-		<Metadata name="DataProcessor.ирКонсольКода.Form.Форма.Form" id="05fcf94a-0377-449c-bf64-580ad24cd504.0" configVersion="ab66e95d1f09d94c8ff52c31976877a000000000"/>
+		<Metadata name="DataProcessor.ирКонсольКода.Form.Форма" id="05fcf94a-0377-449c-bf64-580ad24cd504" configVersion="49c8f8ed6a6ae54eb4add3914eb3060b00000000"/>
+		<Metadata name="DataProcessor.ирКонсольКода.Form.Форма.Form" id="05fcf94a-0377-449c-bf64-580ad24cd504.0" configVersion="0ea39201fb4f73448ba471076cd94eaf00000000"/>
 		<Metadata name="DataProcessor.ирКонсольКода.Help" id="fc42a2ce-9cc6-465a-b4a8-96ad7d6e8013.1" configVersion="fb47dc9c15a89947b536ddcc7ab2515200000000"/>
 		<Metadata name="DataProcessor.ирКонсольКода.ManagerModule" id="fc42a2ce-9cc6-465a-b4a8-96ad7d6e8013.2" configVersion="591fd7b9d36119449452efb87e2c6d3600000000"/>
 		<Metadata name="DataProcessor.ирКонсольКода.ObjectModule" id="fc42a2ce-9cc6-465a-b4a8-96ad7d6e8013.0" configVersion="14ee96aa4ac9d047b0b5ad874574a3c700000000"/>
@@ -1737,8 +1737,8 @@
 			<Metadata name="DataProcessor.ирКонсольПостроителейОтчетов.Attribute.ПостроительОтчетов" id="f3d80cb8-7e01-4e83-890a-00bfba7fd198"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ирКонсольПостроителейОтчетов.Command.Команда1.CommandModule" id="dd7190de-c5ca-48ab-82b1-e0b5401c3819.2" configVersion="487ce87b39a89343be165d2e8b53561000000000"/>
-		<Metadata name="DataProcessor.ирКонсольПостроителейОтчетов.Form.Форма" id="b764459b-cb24-4e43-893a-8afdda8c094c" configVersion="df42daaa2b4371418ffb9165b7f698fd00000000"/>
-		<Metadata name="DataProcessor.ирКонсольПостроителейОтчетов.Form.Форма.Form" id="b764459b-cb24-4e43-893a-8afdda8c094c.0" configVersion="47d2701cda45c749b2badbe96b4c9d3500000000"/>
+		<Metadata name="DataProcessor.ирКонсольПостроителейОтчетов.Form.Форма" id="b764459b-cb24-4e43-893a-8afdda8c094c" configVersion="afa171257c85f54390bf6101dfc9eaa500000000"/>
+		<Metadata name="DataProcessor.ирКонсольПостроителейОтчетов.Form.Форма.Form" id="b764459b-cb24-4e43-893a-8afdda8c094c.0" configVersion="fc29ee0fd2d1184a8396d94ea152bbad00000000"/>
 		<Metadata name="DataProcessor.ирКонсольПостроителейОтчетов.Form.Форма.Help" id="b764459b-cb24-4e43-893a-8afdda8c094c.1" configVersion="6526732767c3e246a928cd65672e28eb00000000"/>
 		<Metadata name="DataProcessor.ирКонсольПостроителейОтчетов.Form.ФормаВыбораИзмерения" id="0beaa9dc-bcc5-47b0-aec1-90aec439369d" configVersion="be13977f65f2ea4c97039bc8eb90742500000000"/>
 		<Metadata name="DataProcessor.ирКонсольПостроителейОтчетов.Form.ФормаВыбораИзмерения.Form" id="0beaa9dc-bcc5-47b0-aec1-90aec439369d.0" configVersion="0d4db2ba325c684ea61e394e4abce08800000000"/>
@@ -1749,8 +1749,8 @@
 		<Metadata name="DataProcessor.ирКонсольПостроителейОтчетов.Form.ФормаВыбораСтрокиДереваЗапросов" id="b604d69a-c236-4715-857d-36ef19b1864a" configVersion="6d8e1132e40c374d8c7225443c0e9a4e00000000"/>
 		<Metadata name="DataProcessor.ирКонсольПостроителейОтчетов.Form.ФормаВыбораСтрокиДереваЗапросов.Form" id="b604d69a-c236-4715-857d-36ef19b1864a.0" configVersion="9e7b30d8f9b52d4bab4ce47816fd076000000000"/>
 		<Metadata name="DataProcessor.ирКонсольПостроителейОтчетов.Form.ФормаВыбораСтрокиДереваЗапросов.Help" id="b604d69a-c236-4715-857d-36ef19b1864a.1" configVersion="4d5553fb78e97941914b5aa76328713600000000"/>
-		<Metadata name="DataProcessor.ирКонсольПостроителейОтчетов.Form.ФормаРедактированияЗапроса" id="85d51c23-a718-4319-9bc5-35935eaaada8" configVersion="21dc5a1437d14d4f89fee0d01fbb48a600000000"/>
-		<Metadata name="DataProcessor.ирКонсольПостроителейОтчетов.Form.ФормаРедактированияЗапроса.Form" id="85d51c23-a718-4319-9bc5-35935eaaada8.0" configVersion="76ae7d94347b724dbe80616e7b3b7fae00000000"/>
+		<Metadata name="DataProcessor.ирКонсольПостроителейОтчетов.Form.ФормаРедактированияЗапроса" id="85d51c23-a718-4319-9bc5-35935eaaada8" configVersion="4cfec4c94ef96840a2e7aac19d6905e100000000"/>
+		<Metadata name="DataProcessor.ирКонсольПостроителейОтчетов.Form.ФормаРедактированияЗапроса.Form" id="85d51c23-a718-4319-9bc5-35935eaaada8.0" configVersion="16d89550913ab143970ac0fadde75fa500000000"/>
 		<Metadata name="DataProcessor.ирКонсольПостроителейОтчетов.Form.ФормаРедактированияЗапроса.Help" id="85d51c23-a718-4319-9bc5-35935eaaada8.1" configVersion="13e2b616f2d81440a50f94fb36b7614100000000"/>
 		<Metadata name="DataProcessor.ирКонсольПостроителейОтчетов.Form.ФормаРедактированияМакета" id="a0dd1a1b-bf04-4501-8cff-1e7fc1b94724" configVersion="0eacc35bb7606c4f8c1a97bed38554cb00000000"/>
 		<Metadata name="DataProcessor.ирКонсольПостроителейОтчетов.Form.ФормаРедактированияМакета.Form" id="a0dd1a1b-bf04-4501-8cff-1e7fc1b94724.0" configVersion="e137a049a36c3948b9663ffe8853e0e000000000"/>
@@ -1889,8 +1889,8 @@
 		<Metadata name="DataProcessor.ирНастройкаТехножурнала.Form.ВыборШаблона" id="4aafb87c-974d-4b94-b07c-2e4c4324f321" configVersion="c8f6d7e99ad815478a2262708891fa6900000000"/>
 		<Metadata name="DataProcessor.ирНастройкаТехножурнала.Form.ВыборШаблона.Form" id="4aafb87c-974d-4b94-b07c-2e4c4324f321.0" configVersion="7578e150059fa34cb2b8c93a4442d62900000000"/>
 		<Metadata name="DataProcessor.ирНастройкаТехножурнала.Form.ВыборШаблона.Help" id="4aafb87c-974d-4b94-b07c-2e4c4324f321.1" configVersion="08d8aab405ed6b4b8461173252e600b800000000"/>
-		<Metadata name="DataProcessor.ирНастройкаТехножурнала.Form.НастройкаКаталога" id="51ba7455-f4f8-4130-a718-bac841e30603" configVersion="0d718948b2edf6488858607faf86ae6b00000000"/>
-		<Metadata name="DataProcessor.ирНастройкаТехножурнала.Form.НастройкаКаталога.Form" id="51ba7455-f4f8-4130-a718-bac841e30603.0" configVersion="05b27906ee5c3641abb85d2504be6aba00000000"/>
+		<Metadata name="DataProcessor.ирНастройкаТехножурнала.Form.НастройкаКаталога" id="51ba7455-f4f8-4130-a718-bac841e30603" configVersion="3508292f4a31bb45b8ae89c527468d4000000000"/>
+		<Metadata name="DataProcessor.ирНастройкаТехножурнала.Form.НастройкаКаталога.Form" id="51ba7455-f4f8-4130-a718-bac841e30603.0" configVersion="3aa18f0f6a0c5c4e895c5ea35369275000000000"/>
 		<Metadata name="DataProcessor.ирНастройкаТехножурнала.Form.НастройкаКаталога.Help" id="51ba7455-f4f8-4130-a718-bac841e30603.1" configVersion="b85679a9eb24c64a88ff994db0c8d5e000000000"/>
 		<Metadata name="DataProcessor.ирНастройкаТехножурнала.Form.НастройкаТехножурнала" id="64d08f77-6e07-4849-b236-6abc6d399d7c" configVersion="c4eaa404466b934095e63e9d8460462000000000"/>
 		<Metadata name="DataProcessor.ирНастройкаТехножурнала.Form.НастройкаТехножурнала.Form" id="64d08f77-6e07-4849-b236-6abc6d399d7c.0" configVersion="c004a357aa146845a45674f18eecb13600000000"/>
@@ -1969,7 +1969,7 @@
 		<Metadata name="DataProcessor.ирОболочкаРегВыражение.ObjectModule" id="0aa79273-5ec1-4e9d-8405-684b3a903ea1.0" configVersion="193238addb7aba4daf1ad2af90b21ed900000000"/>
 		<Metadata name="DataProcessor.ирОболочкаРегВыражение.Template.КодыОшибокVBScript" id="961a0ee0-230a-47d0-b11c-d35d669ba65f" configVersion="b43f106c32b63f41ac7c1509d702319a00000000"/>
 		<Metadata name="DataProcessor.ирОболочкаРегВыражение.Template.КодыОшибокVBScript.Template" id="961a0ee0-230a-47d0-b11c-d35d669ba65f.0" configVersion="c03ca57cb6de1847aa441dab6883703400000000"/>
-		<Metadata name="DataProcessor.ирПлатформа" id="f92e2207-3be1-4bc8-ad45-59c16eba1c63" configVersion="7d9b9300f142a14f90932cb940005c1a00000000">
+		<Metadata name="DataProcessor.ирПлатформа" id="f92e2207-3be1-4bc8-ad45-59c16eba1c63" configVersion="68111cb84220cd419c3684194817a3fd00000000">
 			<Metadata name="DataProcessor.ирПлатформа.TabularSection.СочетанияКлавиш" id="01f56b8a-e2c2-4372-841c-71dde2aad4f7"/>
 			<Metadata name="DataProcessor.ирПлатформа.TabularSection.МакетыКонфигурации.Attribute.Родитель" id="0427fd9e-6383-4605-822b-4891087c3bbd"/>
 			<Metadata name="DataProcessor.ирПлатформа.TabularSection.Стек" id="048434d6-b987-4f9f-86c8-80e0d2de8613"/>
@@ -2157,10 +2157,10 @@
 		<Metadata name="DataProcessor.ирПлатформа.Form.КартинкиКонфигурации.Form" id="1d807a2d-6a62-4dee-91da-8a7497aa4b41.0" configVersion="4f2bed31f27f15479c050b867df36a4200000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.МакетыКонфигурации" id="2df816b7-9f30-423c-beb4-a0137e09ad49" configVersion="434e5921474840418dba5d6bc2c7c97b00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.МакетыКонфигурации.Form" id="2df816b7-9f30-423c-beb4-a0137e09ad49.0" configVersion="5d5e06523da6a14382e3ae3f4200da7f00000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Form.МенеджерТабличногоПоля" id="eef143de-6c17-4a67-8962-9b3f711f9fef" configVersion="399334062762184ea1d1d873ab35556e00000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Form.МенеджерТабличногоПоля.Form" id="eef143de-6c17-4a67-8962-9b3f711f9fef.0" configVersion="bb15b0d4a51f7a4faf29165164ac4e0400000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Form.МоментВремени" id="a34a2655-be71-437d-adbe-f6f554388918" configVersion="e140dd9b671f404a956b8230755b2e8b00000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Form.МоментВремени.Form" id="a34a2655-be71-437d-adbe-f6f554388918.0" configVersion="a72a8faf29fdc44e8f42af30b1e3f56800000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Form.МенеджерТабличногоПоля" id="eef143de-6c17-4a67-8962-9b3f711f9fef" configVersion="069724a345acff4cb59ea8156a073ff600000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Form.МенеджерТабличногоПоля.Form" id="eef143de-6c17-4a67-8962-9b3f711f9fef.0" configVersion="8fa3ed325089dd419ebdbc7fae3d600d00000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Form.МоментВремени" id="a34a2655-be71-437d-adbe-f6f554388918" configVersion="7be0990319b9ff4885921eba87f1195100000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Form.МоментВремени.Form" id="a34a2655-be71-437d-adbe-f6f554388918.0" configVersion="9677e35d97258c45b644bd81e80a26a500000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.НастройкаОсторожностиВыборкиДанных" id="deab2be0-f98d-4cf1-8633-0769174f8bb3" configVersion="09105820a7a2054ead54c23bbd5449ac00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.НастройкаОсторожностиВыборкиДанных.Form" id="deab2be0-f98d-4cf1-8633-0769174f8bb3.0" configVersion="73c78f9a0afc83439a21828ebc84711d00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.НастройкиАлгоритмов" id="686f3513-2422-4746-a581-9a53e4a88b98" configVersion="a75d3e6a6d5c7e44a69778eb6f2c168e00000000"/>
@@ -2173,8 +2173,8 @@
 		<Metadata name="DataProcessor.ирПлатформа.Form.ОбработчикиОжидания.Form" id="d5f0d862-b376-4327-94db-116acd91a316.0" configVersion="af8288a655b6e94aab00235b6715d37c00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.ОбщиеКоманды" id="667ffea9-fbe0-4e5e-91a1-ad5ab581ca08" configVersion="9804a3669ddf2143870e0eb713c59fc900000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.ОбщиеКоманды.Form" id="667ffea9-fbe0-4e5e-91a1-ad5ab581ca08.0" configVersion="cc8e63b03fffac44ab4216618fdbf5ee00000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Form.ОписаниеПлатформы" id="ad9c85f7-8972-4797-8376-0c186f979a61" configVersion="c9b7a8faafd6a4469959f41780c797cb00000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Form.ОписаниеПлатформы.Form" id="ad9c85f7-8972-4797-8376-0c186f979a61.0" configVersion="3234181deefd2e4dae9968f08fb7717900000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Form.ОписаниеПлатформы" id="ad9c85f7-8972-4797-8376-0c186f979a61" configVersion="e840f3be6e89a74490609f7587545c3e00000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Form.ОписаниеПлатформы.Form" id="ad9c85f7-8972-4797-8376-0c186f979a61.0" configVersion="12a05a476d4ba746b4a7b37c1eec062e00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.ОсвободительФормУП" id="c7a82a5f-3b64-4ba0-8303-fb11831c1fc1" configVersion="8e2ed27c968f1541b2e841e9bdecafed00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.ОсвободительФормУП.Form" id="c7a82a5f-3b64-4ba0-8303-fb11831c1fc1.0" configVersion="37fc08c284dec4449874cf389018c61100000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.ОтборКомпоновки" id="4dcf2e2d-bc9d-4eb6-b613-07b8d8ec527e" configVersion="2dfd21c1059903408d188741a1f9057900000000"/>
@@ -2185,8 +2185,8 @@
 		<Metadata name="DataProcessor.ирПлатформа.Form.ПараметрыАвтономногоСервера.Form" id="a1c25a01-ebb3-4d8a-acef-de6364545213.0" configVersion="d89750d680a7034597ecf3c2de5d428b00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.ПараметрыВыводаСтрокТаблицы" id="fb6bf3fe-9a7d-4dd6-b628-72c3bd2362a3" configVersion="a4e4736fa88d6742a921b874e89797bc00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.ПараметрыВыводаСтрокТаблицы.Form" id="fb6bf3fe-9a7d-4dd6-b628-72c3bd2362a3.0" configVersion="f9f5f18cbf1af944b6ed1656b705ee9100000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Form.ПараметрыЗаписиОбъектов" id="71a4a367-fb54-4cb7-acd2-dfa68db0faac" configVersion="2ad6adb34ae856449d3e54c53d320bc600000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Form.ПараметрыЗаписиОбъектов.Form" id="71a4a367-fb54-4cb7-acd2-dfa68db0faac.0" configVersion="74a69091597f4845ae7e70f97f06c6e100000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Form.ПараметрыЗаписиОбъектов" id="71a4a367-fb54-4cb7-acd2-dfa68db0faac" configVersion="74b4246c09122d4aa8644623e9f0f01200000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Form.ПараметрыЗаписиОбъектов.Form" id="71a4a367-fb54-4cb7-acd2-dfa68db0faac.0" configVersion="296d80c59fc5924cbdb783fc7eed8c1e00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.ПараметрыПоискаСсылок" id="0a5439c4-7904-4c7d-9f11-83da8664cae1" configVersion="ec246c2ee88ec548a19a82e8b5cfff4600000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.ПараметрыПоискаСсылок.Form" id="0a5439c4-7904-4c7d-9f11-83da8664cae1.0" configVersion="e17f68e780d7b147b8e257936b871fcc00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.ПараметрыСоединенияСУБД" id="1e7297b3-6386-489e-9112-d2b07b7bd5f4" configVersion="2c43f52abf5908418c1c12af925055e700000000"/>
@@ -2218,14 +2218,14 @@
 		<Metadata name="DataProcessor.ирПлатформа.Form.СообщенияМодальнойГруппы.Help" id="1be893b8-3a2d-4810-aead-9c5464a125be.1" configVersion="8944c759fe33f3488cdf70101a871a0200000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.СохранениеНастроекКнт" id="4f10ecd7-154a-4dc4-ac02-4c5de5516337" configVersion="34cdd36949f0364bab5570fe94f418b200000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.СохранениеНастроекКнт.Form" id="4f10ecd7-154a-4dc4-ac02-4c5de5516337.0" configVersion="71a244fb7eb4eb4396fc4e13d73e30e000000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Form.СписокЗначений" id="2f65dbb8-571c-42f1-8631-95053972e143" configVersion="cc48bafc5e13884aa674344720b6622800000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Form.СписокЗначений.Form" id="2f65dbb8-571c-42f1-8631-95053972e143.0" configVersion="b30419880cc851499ad5f48a53545d5300000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Form.СписокЗначений" id="2f65dbb8-571c-42f1-8631-95053972e143" configVersion="bd0db688dba75a42920b7945dfe3ba8500000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Form.СписокЗначений.Form" id="2f65dbb8-571c-42f1-8631-95053972e143.0" configVersion="b047a06b37783e4aab53c944e503c16900000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.СравнениеОбъектов" id="4dad95cf-f716-48f7-9eae-2016f051412a" configVersion="ace05ecf8fd5a747ba5e46ca548e414000000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.СравнениеОбъектов.Form" id="4dad95cf-f716-48f7-9eae-2016f051412a.0" configVersion="87cb308464dc4f4cb84f359de71b31ed00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.Стек" id="2a1455f0-7a70-4b0e-b21e-e280b8de9700" configVersion="fd93ce147574b04a85689ee2f596b88b00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.Стек.Form" id="2a1455f0-7a70-4b0e-b21e-e280b8de9700.0" configVersion="b761cd4f1c5a864fa6b589e95f62545500000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Form.СтрокаТаблицы" id="94d952d7-dd58-48fc-b05a-c609951ff55e" configVersion="ce06fddd1228ed479d66cddbc969e72200000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Form.СтрокаТаблицы.Form" id="94d952d7-dd58-48fc-b05a-c609951ff55e.0" configVersion="5da158f6bf9b5243a96d9aa846d0e9ba00000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Form.СтрокаТаблицы" id="94d952d7-dd58-48fc-b05a-c609951ff55e" configVersion="3fc8c9da76863c459d9d4b927c809f8600000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Form.СтрокаТаблицы.Form" id="94d952d7-dd58-48fc-b05a-c609951ff55e.0" configVersion="74f1b847f35ca3459ff3c9b9797a85cb00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.СтруктураФормы" id="6e58193b-5f70-4d90-a49e-c1bedae69096" configVersion="b1a86f81e8b29a44bda567516a0d328900000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.СтруктураФормы.Form" id="6e58193b-5f70-4d90-a49e-c1bedae69096.0" configVersion="7127ad1ae679634f9dc309d60453895c00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.ТаблицаЗначений" id="6da2aaf6-cb86-4e55-a084-883147594592" configVersion="6b578ebc9dcb3a49a226c78b8db11bd500000000"/>
@@ -2234,8 +2234,8 @@
 		<Metadata name="DataProcessor.ирПлатформа.Form.ТабличныйДокумент" id="a2224706-4553-4329-88dc-fb124cdbdb48" configVersion="b9329537e894704ca77d6bf1640ba8da00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.ТабличныйДокумент.Form" id="a2224706-4553-4329-88dc-fb124cdbdb48.0" configVersion="3fb47ec9fa3af142b16ebebfbd0f55a800000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.ТабличныйДокумент.Help" id="a2224706-4553-4329-88dc-fb124cdbdb48.1" configVersion="c3cdfe54a5231b4d88f1d737755fc2e200000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Form.Текст" id="afe6f377-4d61-425a-b8db-2fbd3c9e11fe" configVersion="8050f4813d580542ad1b097e4913b41f00000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Form.Текст.Form" id="afe6f377-4d61-425a-b8db-2fbd3c9e11fe.0" configVersion="983a13b6e0ade4439ca724cb59a405e900000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Form.Текст" id="afe6f377-4d61-425a-b8db-2fbd3c9e11fe" configVersion="8cca07713ae8fc4eb16a471719e249bd00000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Form.Текст.Form" id="afe6f377-4d61-425a-b8db-2fbd3c9e11fe.0" configVersion="169ae3fcabbd604e80aa8232c8e192cc00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.УникальныйИдентификатор" id="c0d19aa5-a129-4dca-83a7-b6f8af8b4420" configVersion="8f9798e4c2d2824da6353d08533ab08b00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.УникальныйИдентификатор.Form" id="c0d19aa5-a129-4dca-83a7-b6f8af8b4420.0" configVersion="1144ffcc05797b4ebb6b0ebd9534c46d00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.ФоновоеЗаданиеФормы" id="844d45d0-c15e-412e-862f-103113b09891" configVersion="e4f7ba4f2752de41b890c36a8d1c2a3300000000"/>
@@ -2250,11 +2250,11 @@
 		<Metadata name="DataProcessor.ирПлатформа.Form.ФункцииРежимаОтладки.Form" id="9a99cbc2-ae70-4aea-956c-9be29d0cbb2e.0" configVersion="e5f90efc4d437f418eb1cd36d17196f100000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.ХранилищеЗначения" id="1bbe1641-c470-44d2-870d-18be42d1230d" configVersion="a896539002d11f4fa2843a486afe790500000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Form.ХранилищеЗначения.Form" id="1bbe1641-c470-44d2-870d-18be42d1230d.0" configVersion="f13b69c718ce4a4cb3c9dd438ee0831f00000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Form.ЧатИИ" id="1b27fe66-d948-4a4d-be7c-5ae133fbc300" configVersion="91e3160c0ea65b4c9166535f206a941500000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Form.ЧатИИ.Form" id="1b27fe66-d948-4a4d-be7c-5ae133fbc300.0" configVersion="0c8593121532c547900745001655ecdd00000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Form.ЧатИИ" id="1b27fe66-d948-4a4d-be7c-5ae133fbc300" configVersion="d6c85abc1c96a14395999751d6dab21000000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Form.ЧатИИ.Form" id="1b27fe66-d948-4a4d-be7c-5ae133fbc300.0" configVersion="4dee622c43565e4d8edc78beeb418d7c00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Help" id="f92e2207-3be1-4bc8-ad45-59c16eba1c63.1" configVersion="f4502deb868db2478302101560e0109400000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.ManagerModule" id="f92e2207-3be1-4bc8-ad45-59c16eba1c63.2" configVersion="3a1d7ce7f222f642ab3466904e8ed6df00000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.ObjectModule" id="f92e2207-3be1-4bc8-ad45-59c16eba1c63.0" configVersion="d5e022500beeff4ea540668620f9c2a100000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.ObjectModule" id="f92e2207-3be1-4bc8-ad45-59c16eba1c63.0" configVersion="81dc77cf47731944887f10a5ea428fd700000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Template.FM20" id="df87613a-9f74-4b9e-93c6-cd3bd6f5ab43" configVersion="c1540a51af783f43abc983865beebaad00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Template.FM20.Template" id="df87613a-9f74-4b9e-93c6-cd3bd6f5ab43.0" configVersion="480351c16aeb6d419b6d71dce6c3b30500000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Template.FM20ENU" id="ad642f87-ff99-471e-9fa3-8b9d23749bb3" configVersion="108e2e9c2924c24896dfabadc33290af00000000"/>
@@ -2275,8 +2275,8 @@
 		<Metadata name="DataProcessor.ирПлатформа.Template.GoldParser.Template" id="7828e345-635f-4e82-95df-4bc4a3c3badd.0" configVersion="78f5de9cf8f7d944a57b579fabe091a400000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Template.GoldParserReg" id="0915238d-7865-4495-8002-b4130093471e" configVersion="f6a41789cefa6548aade95892fc9c9a600000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Template.GoldParserReg.Template" id="0915238d-7865-4495-8002-b4130093471e.0" configVersion="9468b8c119fc8e4b9cb7f36519761d2300000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Template.JSONEditor" id="44c0e286-6333-4dae-84b5-e4c1f465b802" configVersion="f0d8cc397747c64db397c58ffd31048d00000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Template.JSONEditor.Template" id="44c0e286-6333-4dae-84b5-e4c1f465b802.0" configVersion="a8d9409c5bbb4f4daafe3f32834b1ad700000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Template.JSONEditor" id="44c0e286-6333-4dae-84b5-e4c1f465b802" configVersion="dbade31e669cfc4b86619a80907013b400000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Template.JSONEditor.Template" id="44c0e286-6333-4dae-84b5-e4c1f465b802.0" configVersion="95add436bcd0ab4c86c3172dd1f4a0b400000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Template.KeyboardHookWin32" id="6a46cf14-595c-4bd8-b554-3df04c29502e" configVersion="e63b782ec068994e8547faef2058c42f00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Template.KeyboardHookWin32.Template" id="6a46cf14-595c-4bd8-b554-3df04c29502e.0" configVersion="4d5b9790f3ac09429f5e8887883b4f5f00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Template.KeyboardHookWin64" id="40062325-13fa-43e3-b9d7-808f6ec1c5c1" configVersion="7830c940aa68ed4b9831f6a0953488e000000000"/>
@@ -2367,14 +2367,14 @@
 		<Metadata name="DataProcessor.ирПлатформа.Template.СочетанияКлавишПодсистемыГлобальные.Template" id="c79847a9-a4dc-4b7b-aced-f9e80961fafb.0" configVersion="7dd63580834fd946a8074bfab1b392dd00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Template.СписокИнструментов" id="0e2424f4-bd5e-41d5-882c-d7bac1257951" configVersion="45894068675e6c489b85cf3707455f6000000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Template.СписокИнструментов.Template" id="0e2424f4-bd5e-41d5-882c-d7bac1257951.0" configVersion="a4f9a07511359f4988a92623363e635700000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Template.ТаблицаИменЭлементовКоллекций" id="b9e322b9-4a31-428c-9a9f-c86bfcc77933" configVersion="02412fb81e98a44d812e91e896ab414500000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Template.ТаблицаИменЭлементовКоллекций.Template" id="b9e322b9-4a31-428c-9a9f-c86bfcc77933.0" configVersion="ab8582c4a93b114e84c1d1975d95671f00000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Template.ТаблицаИменЭлементовКоллекций" id="b9e322b9-4a31-428c-9a9f-c86bfcc77933" configVersion="5f1ae21066c57342857bc9a08c94098600000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Template.ТаблицаИменЭлементовКоллекций.Template" id="b9e322b9-4a31-428c-9a9f-c86bfcc77933.0" configVersion="c38e584f4767fe4c9ff21a492344d3c200000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Template.ТаблицаМетодовИСвойств" id="c76f7e73-27f2-4198-8b47-5afe2295f6a4" configVersion="72d8233fc46ac642a5b4cbd1edda767d00000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Template.ТаблицаМетодовИСвойств.Template" id="c76f7e73-27f2-4198-8b47-5afe2295f6a4.0" configVersion="ae5785f75abb454ea16221b791c1dffb00000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Template.ТаблицаОбщихТипов" id="4f296ffd-d7a9-4fd5-881e-37e826dfb8d1" configVersion="17f89f35f6b8e84ebc52d8b2ae8094e800000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Template.ТаблицаОбщихТипов.Template" id="4f296ffd-d7a9-4fd5-881e-37e826dfb8d1.0" configVersion="728e1f68e55bf346a59ec247a1130ff800000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Template.ТаблицаПараметровМетодов" id="22aa19e9-c0f4-4c6e-94ff-e31687374336" configVersion="580057967e84684fa9137f5df7f9c22d00000000"/>
-		<Metadata name="DataProcessor.ирПлатформа.Template.ТаблицаПараметровМетодов.Template" id="22aa19e9-c0f4-4c6e-94ff-e31687374336.0" configVersion="155303223540bf4288aa376520eb49f000000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Template.ТаблицаОбщихТипов" id="4f296ffd-d7a9-4fd5-881e-37e826dfb8d1" configVersion="b233a0deb1ded246ae4034ea0aaf09bb00000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Template.ТаблицаОбщихТипов.Template" id="4f296ffd-d7a9-4fd5-881e-37e826dfb8d1.0" configVersion="e98f3e1e87246d4ba6043daab5c1eb3600000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Template.ТаблицаПараметровМетодов" id="22aa19e9-c0f4-4c6e-94ff-e31687374336" configVersion="97e002523a31a845880e0fba36f4d9bf00000000"/>
+		<Metadata name="DataProcessor.ирПлатформа.Template.ТаблицаПараметровМетодов.Template" id="22aa19e9-c0f4-4c6e-94ff-e31687374336.0" configVersion="b80b195ecb1346439e749ff809f2d1f100000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Template.ТерминалыЯзыкаЗапросов" id="fa8b9bb8-bcd6-4d66-b13f-2d8a33a969b1" configVersion="1e134d44e2b49348bdc3459a812a005700000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Template.ТерминалыЯзыкаЗапросов.Template" id="fa8b9bb8-bcd6-4d66-b13f-2d8a33a969b1.0" configVersion="80c197540d14484bb0dbf9e0f3bea72300000000"/>
 		<Metadata name="DataProcessor.ирПлатформа.Template.ФункцииРежимаОтладки" id="dc125575-8dbe-4b11-93d5-9558479786b0" configVersion="3e4482b8e4538c4f9a6006b3e9c44d6000000000"/>
@@ -2452,11 +2452,11 @@
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.Записать" id="a98062f0-7456-412c-8997-31415b239c3b" configVersion="9074741512dd2949bdc1842d0887326300000000"/>
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.Записать.Form" id="a98062f0-7456-412c-8997-31415b239c3b.0" configVersion="e831bfc1332c4b49b76c268f3431af8d00000000"/>
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.Записать.Help" id="a98062f0-7456-412c-8997-31415b239c3b.1" configVersion="475735d2e3c9c447bfe54df2805989ec00000000"/>
-		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ЗаписатьВерсию" id="5812fe8c-4c45-4860-8773-8e3bad845c0d" configVersion="0201ef9def032c46abaf994e0076e46e00000000"/>
-		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ЗаписатьВерсию.Form" id="5812fe8c-4c45-4860-8773-8e3bad845c0d.0" configVersion="d9439e794e67944080a21e9a35c18bc100000000"/>
+		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ЗаписатьВерсию" id="5812fe8c-4c45-4860-8773-8e3bad845c0d" configVersion="c66d471eda0b404280c68fb38d48a23600000000"/>
+		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ЗаписатьВерсию.Form" id="5812fe8c-4c45-4860-8773-8e3bad845c0d.0" configVersion="c2bd14e7d4849c4c998ebe5c3af6e82800000000"/>
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ЗаписатьВерсию.Help" id="5812fe8c-4c45-4860-8773-8e3bad845c0d.1" configVersion="4ceb55f9b43d6546a7cce50e31c4402d00000000"/>
-		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ИзменитьДобавитьСтроку" id="fa437ea6-796d-4198-908f-aee080235a4f" configVersion="3e272c2762708045b5e9a7b5214f6a4f00000000"/>
-		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ИзменитьДобавитьСтроку.Form" id="fa437ea6-796d-4198-908f-aee080235a4f.0" configVersion="c6c310b1934f6d438b304409a014688e00000000"/>
+		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ИзменитьДобавитьСтроку" id="fa437ea6-796d-4198-908f-aee080235a4f" configVersion="1fb1abecb4787446a097b3cb2357a50f00000000"/>
+		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ИзменитьДобавитьСтроку.Form" id="fa437ea6-796d-4198-908f-aee080235a4f.0" configVersion="5d59cff9afe7d74ab82bd2406b6d636400000000"/>
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ИзменитьДобавитьСтроку.Help" id="fa437ea6-796d-4198-908f-aee080235a4f.1" configVersion="230ba03c25cc2b4f9a6c16d56931111200000000"/>
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ИзменитьИдентификаторы" id="43067e12-b395-4683-90dc-c56e8f62f54c" configVersion="9e0a6a54f578cf418a919435dcfc8e3400000000"/>
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ИзменитьИдентификаторы.Form" id="43067e12-b395-4683-90dc-c56e8f62f54c.0" configVersion="f98f0421a322294a8d797ae8f8fc55de00000000"/>
@@ -2464,8 +2464,8 @@
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ИзменитьПометкуНаУдаление" id="6442ffe4-1adb-45b2-817b-d244f4311a36" configVersion="50f0a4cf15a5a74a9235348c451fd69400000000"/>
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ИзменитьПометкуНаУдаление.Form" id="6442ffe4-1adb-45b2-817b-d244f4311a36.0" configVersion="7161a166ad64734ea30506b5e593492600000000"/>
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ИзменитьПометкуНаУдаление.Help" id="6442ffe4-1adb-45b2-817b-d244f4311a36.1" configVersion="b78de98c59456d469dc99ee65dba2c4900000000"/>
-		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ИзменитьРегистрациюНаУзле" id="7bba9cc1-2968-4080-b259-393265a4d02d" configVersion="e9a75db6f9ee7649a0b627c3049ba55d00000000"/>
-		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ИзменитьРегистрациюНаУзле.Form" id="7bba9cc1-2968-4080-b259-393265a4d02d.0" configVersion="294a9dc9dd6b414a89d8d270b4c382c100000000"/>
+		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ИзменитьРегистрациюНаУзле" id="7bba9cc1-2968-4080-b259-393265a4d02d" configVersion="85c634fd2bf6c64dbf65d0db86830d8600000000"/>
+		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ИзменитьРегистрациюНаУзле.Form" id="7bba9cc1-2968-4080-b259-393265a4d02d.0" configVersion="58eb01fe3099ad47b2179466822c4d0b00000000"/>
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ИзменитьРегистрациюНаУзле.Help" id="7bba9cc1-2968-4080-b259-393265a4d02d.1" configVersion="8c32e6e632f61e4eb895237985b3b5d000000000"/>
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ОткрытьВДинамическомСписке" id="9b4c934d-66c6-4158-983e-e3f254601735" configVersion="85d7326c660fc44eb519a440eda6cace00000000"/>
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ОткрытьВДинамическомСписке.Form" id="9b4c934d-66c6-4158-983e-e3f254601735.0" configVersion="d60bd6bfb9b48347830c4026cb1b107d00000000"/>
@@ -2479,14 +2479,14 @@
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ПеренумерацияОбъектов" id="f1a207b4-9fd7-4805-afba-4ab639f0f763" configVersion="3f313c895a192b4182ee329f3720cca200000000"/>
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ПеренумерацияОбъектов.Form" id="f1a207b4-9fd7-4805-afba-4ab639f0f763.0" configVersion="41f39148cc11524f9b51af5e14d4ac7c00000000"/>
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ПеренумерацияОбъектов.Help" id="f1a207b4-9fd7-4805-afba-4ab639f0f763.1" configVersion="ad07e4885b489c4dbdca6194caccff0200000000"/>
-		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ПодборИОбработка" id="48e35fdc-8662-471d-ade8-89a27de2d0f3" configVersion="4839b4f12053934c8fa9620fb54b326000000000"/>
-		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ПодборИОбработка.Form" id="48e35fdc-8662-471d-ade8-89a27de2d0f3.0" configVersion="68b230cdb6dd0c42bf81f1575a7eb84f00000000"/>
+		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ПодборИОбработка" id="48e35fdc-8662-471d-ade8-89a27de2d0f3" configVersion="7837a722c3c6c14d9d711ead715c5a2700000000"/>
+		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ПодборИОбработка.Form" id="48e35fdc-8662-471d-ade8-89a27de2d0f3.0" configVersion="3fa3f3a529c546479d3185f1751066d700000000"/>
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ПодборИОбработка.Help" id="48e35fdc-8662-471d-ade8-89a27de2d0f3.1" configVersion="5ee40b24b7e21949a823e3740d749ad400000000"/>
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ПровестиДокументы" id="66478050-df98-40c1-ba4c-c0c7325735e5" configVersion="76f6149785dea348a68a58f564356fa700000000"/>
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ПровестиДокументы.Form" id="66478050-df98-40c1-ba4c-c0c7325735e5.0" configVersion="9e49b4c1c8e5874ea40204bb731339e200000000"/>
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ПровестиДокументы.Help" id="66478050-df98-40c1-ba4c-c0c7325735e5.1" configVersion="4ed51a10d1aa3146b6a24965ba5da8c300000000"/>
-		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ПроизвольныйАлгоритм" id="d9bd2fc8-57ef-41f6-a81a-1863fdf79d4a" configVersion="8928f4d412cf2e418e9dd1820e583dd200000000"/>
-		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ПроизвольныйАлгоритм.Form" id="d9bd2fc8-57ef-41f6-a81a-1863fdf79d4a.0" configVersion="e49ed134611be348824547680b345e1b00000000"/>
+		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ПроизвольныйАлгоритм" id="d9bd2fc8-57ef-41f6-a81a-1863fdf79d4a" configVersion="8f4059c1a1aedb45a714addd1f013e5200000000"/>
+		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ПроизвольныйАлгоритм.Form" id="d9bd2fc8-57ef-41f6-a81a-1863fdf79d4a.0" configVersion="b2d487c3aaef274a8669ba8a0519ee5200000000"/>
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.ПроизвольныйАлгоритм.Help" id="d9bd2fc8-57ef-41f6-a81a-1863fdf79d4a.1" configVersion="1f2cd98b7cf70e4eb6e5d06a16a4a84500000000"/>
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.Удалить" id="c028502b-2484-4842-86e9-d1941e20ff71" configVersion="b8ccecf4edd4514e9b9ea1a85f76100200000000"/>
 		<Metadata name="DataProcessor.ирПодборИОбработкаОбъектов.Form.Удалить.Form" id="c028502b-2484-4842-86e9-d1941e20ff71.0" configVersion="40ef95450b3ab7488b4e4219e7e72fa200000000"/>
@@ -2609,8 +2609,8 @@
 		<Metadata name="DataProcessor.ирПоискДублейИЗаменаСсылок.Command.Команда1.CommandModule" id="2fdcf3cc-8317-413f-8e67-330eb6464584.2" configVersion="02a87f225f9c4141b58dcbd3e126c5f800000000"/>
 		<Metadata name="DataProcessor.ирПоискДублейИЗаменаСсылок.Form.Настройки" id="c531c1e3-ef85-4d1e-8394-06cd6cb764a1" configVersion="7ae039ebb1047f4bb166df672b53fed500000000"/>
 		<Metadata name="DataProcessor.ирПоискДублейИЗаменаСсылок.Form.Настройки.Form" id="c531c1e3-ef85-4d1e-8394-06cd6cb764a1.0" configVersion="59b0c957c6195b439241d1b55cd919e600000000"/>
-		<Metadata name="DataProcessor.ирПоискДублейИЗаменаСсылок.Form.Форма" id="7b1b729f-9bf0-4f05-89f1-390278c67d37" configVersion="09d161e3b018af44adb560677f75235000000000"/>
-		<Metadata name="DataProcessor.ирПоискДублейИЗаменаСсылок.Form.Форма.Form" id="7b1b729f-9bf0-4f05-89f1-390278c67d37.0" configVersion="bfa4ec432a9e2b4dbd833bad9ea4480600000000"/>
+		<Metadata name="DataProcessor.ирПоискДублейИЗаменаСсылок.Form.Форма" id="7b1b729f-9bf0-4f05-89f1-390278c67d37" configVersion="1f5d493cda163c4ba12519ebaf0c698300000000"/>
+		<Metadata name="DataProcessor.ирПоискДублейИЗаменаСсылок.Form.Форма.Form" id="7b1b729f-9bf0-4f05-89f1-390278c67d37.0" configVersion="64d00dda9f6075488c24f5f9d91e456500000000"/>
 		<Metadata name="DataProcessor.ирПоискДублейИЗаменаСсылок.Help" id="9b2420ac-5739-41a4-a529-fc48595250b3.1" configVersion="64e59247312b524b9eab23109f56ecdd00000000"/>
 		<Metadata name="DataProcessor.ирПоискДублейИЗаменаСсылок.ManagerModule" id="9b2420ac-5739-41a4-a529-fc48595250b3.2" configVersion="4ebeb07705a263489e7abcfb3646093500000000"/>
 		<Metadata name="DataProcessor.ирПоискДублейИЗаменаСсылок.ObjectModule" id="9b2420ac-5739-41a4-a529-fc48595250b3.0" configVersion="8c3ede27db8d8148af3f87ce13b28b4200000000"/>
@@ -2682,8 +2682,8 @@
 			<Metadata name="DataProcessor.ирРазличныеЗначенияКолонки.TabularSection.Значения.Attribute.ЗначениеПредставление" id="be32dc80-6467-4247-9433-39697e5bc2bd"/>
 			<Metadata name="DataProcessor.ирРазличныеЗначенияКолонки.TabularSection.Значения.Attribute.Вес" id="e1ad6395-df97-43c0-aba1-e2e7e46241d3"/>
 		</Metadata>
-		<Metadata name="DataProcessor.ирРазличныеЗначенияКолонки.Form.Форма" id="26636c16-3800-49b1-9c35-bd59991a57ba" configVersion="b0c4a978f6bc434989ee9dcbf366cbef00000000"/>
-		<Metadata name="DataProcessor.ирРазличныеЗначенияКолонки.Form.Форма.Form" id="26636c16-3800-49b1-9c35-bd59991a57ba.0" configVersion="ca469fd9d728bc49a4811c54c3a97cd400000000"/>
+		<Metadata name="DataProcessor.ирРазличныеЗначенияКолонки.Form.Форма" id="26636c16-3800-49b1-9c35-bd59991a57ba" configVersion="a245d599ece776458d68557c22044b5b00000000"/>
+		<Metadata name="DataProcessor.ирРазличныеЗначенияКолонки.Form.Форма.Form" id="26636c16-3800-49b1-9c35-bd59991a57ba.0" configVersion="d3d87426cd8c584d8efb2f9d55d7f20f00000000"/>
 		<Metadata name="DataProcessor.ирРазличныеЗначенияКолонки.Help" id="dbc70430-0262-4ef2-9670-b40a423e37e8.1" configVersion="c3d03471ba11dc4ead934e4d23b7db1c00000000"/>
 		<Metadata name="DataProcessor.ирРазличныеЗначенияКолонки.ObjectModule" id="dbc70430-0262-4ef2-9670-b40a423e37e8.0" configVersion="3d9f0a177e328e4c856f6bd19657e80f00000000"/>
 		<Metadata name="DataProcessor.ирРедакторИзмененийНаУзлах" id="9dba296c-8c7c-46d9-b3be-01902c3038fa" configVersion="1ba0b473d6527a4a82fe23e46a51b5d700000000">
@@ -2691,12 +2691,12 @@
 			<Metadata name="DataProcessor.ирРедакторИзмененийНаУзлах.Attribute.ИмяПланОбмена" id="fdbb284d-3b67-453f-822b-b24c1daebb24"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ирРедакторИзмененийНаУзлах.Command.Команда1.CommandModule" id="3b074b49-2ab3-4c49-bbc1-91e366158e58.2" configVersion="5f9798ab34756647bb789c0d5d1a2c5600000000"/>
-		<Metadata name="DataProcessor.ирРедакторИзмененийНаУзлах.Form.ВыборУзловПриемниковДляКопирования" id="13369444-8a36-4115-aca2-d64953d3f7b5" configVersion="32303c2ad232a34ab201a2adfcdfa26c00000000"/>
-		<Metadata name="DataProcessor.ирРедакторИзмененийНаУзлах.Form.ВыборУзловПриемниковДляКопирования.Form" id="13369444-8a36-4115-aca2-d64953d3f7b5.0" configVersion="877c34cade11104894034f03d1ea298600000000"/>
+		<Metadata name="DataProcessor.ирРедакторИзмененийНаУзлах.Form.ВыборУзловПриемниковДляКопирования" id="13369444-8a36-4115-aca2-d64953d3f7b5" configVersion="1e42ce6d03f4db41a79e0f06dc836ee000000000"/>
+		<Metadata name="DataProcessor.ирРедакторИзмененийНаУзлах.Form.ВыборУзловПриемниковДляКопирования.Form" id="13369444-8a36-4115-aca2-d64953d3f7b5.0" configVersion="ff1ac1d630210a4c83883bc0e501b21e00000000"/>
 		<Metadata name="DataProcessor.ирРедакторИзмененийНаУзлах.Form.ИзменениеНомеровСообщений" id="9b02e55f-7fef-4802-a692-16aef9baf0fb" configVersion="7ee49a67ce386142a12966edb2329dfc00000000"/>
 		<Metadata name="DataProcessor.ирРедакторИзмененийНаУзлах.Form.ИзменениеНомеровСообщений.Form" id="9b02e55f-7fef-4802-a692-16aef9baf0fb.0" configVersion="e5f0073e5491fc4e9e760646cb95f5e400000000"/>
-		<Metadata name="DataProcessor.ирРедакторИзмененийНаУзлах.Form.УправлениеГлавнымУзлом" id="e1fa5b21-01b1-4840-89c7-d5b2d1b694d2" configVersion="782c18081a44dd42be5a523a8e24195d00000000"/>
-		<Metadata name="DataProcessor.ирРедакторИзмененийНаУзлах.Form.УправлениеГлавнымУзлом.Form" id="e1fa5b21-01b1-4840-89c7-d5b2d1b694d2.0" configVersion="bcd3204c07aa5043a8b0efa87c699bb700000000"/>
+		<Metadata name="DataProcessor.ирРедакторИзмененийНаУзлах.Form.УправлениеГлавнымУзлом" id="e1fa5b21-01b1-4840-89c7-d5b2d1b694d2" configVersion="98d17fda6aca644685d00e05da5525dd00000000"/>
+		<Metadata name="DataProcessor.ирРедакторИзмененийНаУзлах.Form.УправлениеГлавнымУзлом.Form" id="e1fa5b21-01b1-4840-89c7-d5b2d1b694d2.0" configVersion="0163ac5b120761429ea98a2074df535800000000"/>
 		<Metadata name="DataProcessor.ирРедакторИзмененийНаУзлах.Form.Форма" id="9501a8f1-f9a9-4606-a26d-ca47f9d5b7e7" configVersion="d98046fc2f5a2b46b2bd3030620da7e800000000"/>
 		<Metadata name="DataProcessor.ирРедакторИзмененийНаУзлах.Form.Форма.Form" id="9501a8f1-f9a9-4606-a26d-ca47f9d5b7e7.0" configVersion="a4bd7d52b5c2624cab3d487f8d777b3c00000000"/>
 		<Metadata name="DataProcessor.ирРедакторИзмененийНаУзлах.Form.ФормаВыбораОбновленияРегистрации" id="247c41c1-9443-4ddd-93f7-c36aba60cc8f" configVersion="5a4760c2977c61499c5a157b03cbb69200000000"/>
@@ -2723,8 +2723,8 @@
 			<Metadata name="DataProcessor.ирРедакторКонстант.TabularSection.ТаблицаКонстант.Attribute.ФункциональныеОпцииНеВключены" id="f917435e-9c9b-4a1c-a894-874c68fac6ed"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ирРедакторКонстант.Command.Команда1.CommandModule" id="be6c37f6-f5c6-46d8-bbfe-7366fd3e7ae9.2" configVersion="7394c7b718b46544bd382c87fab5baaa00000000"/>
-		<Metadata name="DataProcessor.ирРедакторКонстант.Form.Форма" id="ed5820db-cd9c-4276-bddd-b522c66e6464" configVersion="ec790c73052fdf45ad1416d350e639b500000000"/>
-		<Metadata name="DataProcessor.ирРедакторКонстант.Form.Форма.Form" id="ed5820db-cd9c-4276-bddd-b522c66e6464.0" configVersion="7a39057f7bfcea4e84e54a6f16f9097c00000000"/>
+		<Metadata name="DataProcessor.ирРедакторКонстант.Form.Форма" id="ed5820db-cd9c-4276-bddd-b522c66e6464" configVersion="8aa1b78f21a728468c039734353b7e0400000000"/>
+		<Metadata name="DataProcessor.ирРедакторКонстант.Form.Форма.Form" id="ed5820db-cd9c-4276-bddd-b522c66e6464.0" configVersion="4bc0608c34d2024c986bf4bd146de3cc00000000"/>
 		<Metadata name="DataProcessor.ирРедакторКонстант.ManagerModule" id="ca6c198d-cbd4-402b-b990-56f5f2e71d3c.2" configVersion="37c712aee9522c4cb0a0512ec0970e9f00000000"/>
 		<Metadata name="DataProcessor.ирРедакторКонстант.ObjectModule" id="ca6c198d-cbd4-402b-b990-56f5f2e71d3c.0" configVersion="ffdea38dbb2319478822f840dd867a2e00000000"/>
 		<Metadata name="DataProcessor.ирРедакторОбъектаБД" id="e71f1b71-d5ef-4883-af9a-c92b4bcf5125" configVersion="fc1504ffe28d5d4c8f0f7f285603d03600000000">
@@ -2856,8 +2856,8 @@
 			<Metadata name="DataProcessor.ирРедакторОбъектаБД.Attribute.ЭтоВнешнийОбъект" id="ff95f3c1-328a-4b51-a3d2-4b3489bdcea7"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ирРедакторОбъектаБД.Command.Команда1.CommandModule" id="a24055f1-4211-45d6-bf91-75132c929124.2" configVersion="60c507cc0b69404ab936d5e2260353b400000000"/>
-		<Metadata name="DataProcessor.ирРедакторОбъектаБД.Form.Форма" id="a9a60b97-1309-402e-8335-405fbe162a92" configVersion="9766c3196053054cba73e36be3ec01af00000000"/>
-		<Metadata name="DataProcessor.ирРедакторОбъектаБД.Form.Форма.Form" id="a9a60b97-1309-402e-8335-405fbe162a92.0" configVersion="ec57888af172944cbf08161e71d4494800000000"/>
+		<Metadata name="DataProcessor.ирРедакторОбъектаБД.Form.Форма" id="a9a60b97-1309-402e-8335-405fbe162a92" configVersion="c270c4f77c0ecc4b802f9f2e23f1b33600000000"/>
+		<Metadata name="DataProcessor.ирРедакторОбъектаБД.Form.Форма.Form" id="a9a60b97-1309-402e-8335-405fbe162a92.0" configVersion="8e9150415f2e334f8da69f0d3ca8fb8c00000000"/>
 		<Metadata name="DataProcessor.ирРедакторОбъектаБД.Help" id="e71f1b71-d5ef-4883-af9a-c92b4bcf5125.1" configVersion="073b26f62679b4469cf00702c70e194700000000"/>
 		<Metadata name="DataProcessor.ирРедакторОбъектаБД.ManagerModule" id="e71f1b71-d5ef-4883-af9a-c92b4bcf5125.2" configVersion="868a278a78049f4c88a6b170b70c025000000000"/>
 		<Metadata name="DataProcessor.ирРедакторОбъектаБД.ObjectModule" id="e71f1b71-d5ef-4883-af9a-c92b4bcf5125.0" configVersion="c62a0575f9fbf046afbbed9a9824902a00000000"/>
@@ -2867,8 +2867,8 @@
 		<Metadata name="DataProcessor.ирРедакторОграниченияДоступа.Command.Команда1.CommandModule" id="f19de56e-e12c-4c1b-9ec3-710e190d1813.2" configVersion="03a66f6503dcb643bbba006932d1b62900000000"/>
 		<Metadata name="DataProcessor.ирРедакторОграниченияДоступа.Form.КэшРолей" id="664cc47c-6467-459d-b150-b7546e312b8d" configVersion="76fe3e3a15fe9d4fbcffb849b620403b00000000"/>
 		<Metadata name="DataProcessor.ирРедакторОграниченияДоступа.Form.КэшРолей.Form" id="664cc47c-6467-459d-b150-b7546e312b8d.0" configVersion="a9612d01808f5540840065d9d5ffd2e500000000"/>
-		<Metadata name="DataProcessor.ирРедакторОграниченияДоступа.Form.Форма" id="888c73c4-0df9-4043-b08b-9b97f126987f" configVersion="f819c4d92829554fabf78c5fb3ed9bc400000000"/>
-		<Metadata name="DataProcessor.ирРедакторОграниченияДоступа.Form.Форма.Form" id="888c73c4-0df9-4043-b08b-9b97f126987f.0" configVersion="7d5071c5d6ee994da71b11658b344b6400000000"/>
+		<Metadata name="DataProcessor.ирРедакторОграниченияДоступа.Form.Форма" id="888c73c4-0df9-4043-b08b-9b97f126987f" configVersion="7ed2aa91b84d724c8a2c1a97e358a64a00000000"/>
+		<Metadata name="DataProcessor.ирРедакторОграниченияДоступа.Form.Форма.Form" id="888c73c4-0df9-4043-b08b-9b97f126987f.0" configVersion="37b8d7941f2b4245ba4b0b62a3ecaa7900000000"/>
 		<Metadata name="DataProcessor.ирРедакторОграниченияДоступа.Help" id="d08a97d8-8c4a-4db5-b008-009f0969ca31.1" configVersion="a2cbb811bf375448bf0f64d7df5efc1c00000000"/>
 		<Metadata name="DataProcessor.ирРедакторОграниченияДоступа.ManagerModule" id="d08a97d8-8c4a-4db5-b008-009f0969ca31.2" configVersion="91e0e58401c0b04aa2e73ccbcab3a51800000000"/>
 		<Metadata name="DataProcessor.ирРедакторОграниченияДоступа.ObjectModule" id="d08a97d8-8c4a-4db5-b008-009f0969ca31.0" configVersion="0572e7ba80875d4f9c994bbda7ac23fe00000000"/>
@@ -2876,8 +2876,8 @@
 			<Metadata name="DataProcessor.ирРедакторОстатков.Command.Команда1" id="429c1197-264e-49a8-ba4f-15ae282df5ac"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ирРедакторОстатков.Command.Команда1.CommandModule" id="429c1197-264e-49a8-ba4f-15ae282df5ac.2" configVersion="b4861cc494103f44a9e2e6ae5e0c3fb300000000"/>
-		<Metadata name="DataProcessor.ирРедакторОстатков.Form.Форма" id="fa66735f-c4dd-42a7-b292-4b209005668a" configVersion="8b4c2e2ca4f6464da6b0f007bfa27b6c00000000"/>
-		<Metadata name="DataProcessor.ирРедакторОстатков.Form.Форма.Form" id="fa66735f-c4dd-42a7-b292-4b209005668a.0" configVersion="4e8e515c76a70a40b5857ef05226a64f00000000"/>
+		<Metadata name="DataProcessor.ирРедакторОстатков.Form.Форма" id="fa66735f-c4dd-42a7-b292-4b209005668a" configVersion="73af6c37a4dcca479bebca126174e31e00000000"/>
+		<Metadata name="DataProcessor.ирРедакторОстатков.Form.Форма.Form" id="fa66735f-c4dd-42a7-b292-4b209005668a.0" configVersion="d15b067a554d314baffd94dd02ccbe9c00000000"/>
 		<Metadata name="DataProcessor.ирРедакторОстатков.Help" id="925b8b34-3661-4c1a-ac94-09295d4b92ea.1" configVersion="887b02d8fa9e2b438dd617db8ca35fa500000000"/>
 		<Metadata name="DataProcessor.ирРедакторОстатков.ManagerModule" id="925b8b34-3661-4c1a-ac94-09295d4b92ea.2" configVersion="1934f622cc7d254a8901ba357918cf0200000000"/>
 		<Metadata name="DataProcessor.ирРедакторОстатков.ObjectModule" id="925b8b34-3661-4c1a-ac94-09295d4b92ea.0" configVersion="3f435467bebbf44598af89e8ab35928b00000000"/>
@@ -2885,8 +2885,8 @@
 			<Metadata name="DataProcessor.ирРедакторПараметровСеанса.Command.Команда1" id="2fd9c4c5-a862-4ed7-9b54-4ea6aa2227a9"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ирРедакторПараметровСеанса.Command.Команда1.CommandModule" id="2fd9c4c5-a862-4ed7-9b54-4ea6aa2227a9.2" configVersion="4a3427162dc6754aa603bdf04c21bb9c00000000"/>
-		<Metadata name="DataProcessor.ирРедакторПараметровСеанса.Form.Форма" id="eb7e663e-36e0-4d4e-90c9-b85ccef9cb87" configVersion="afb76aa1fc843d42a4ebaaa4b9731be900000000"/>
-		<Metadata name="DataProcessor.ирРедакторПараметровСеанса.Form.Форма.Form" id="eb7e663e-36e0-4d4e-90c9-b85ccef9cb87.0" configVersion="be11d2bbd74be94087be2b04e478206a00000000"/>
+		<Metadata name="DataProcessor.ирРедакторПараметровСеанса.Form.Форма" id="eb7e663e-36e0-4d4e-90c9-b85ccef9cb87" configVersion="29f2d0fc31b05947890ee5dbe458a50600000000"/>
+		<Metadata name="DataProcessor.ирРедакторПараметровСеанса.Form.Форма.Form" id="eb7e663e-36e0-4d4e-90c9-b85ccef9cb87.0" configVersion="5438192f54b0fa4badbba34297fdfa0e00000000"/>
 		<Metadata name="DataProcessor.ирРедакторПараметровСеанса.ManagerModule" id="8ec258ed-e223-475e-be74-5fb8a3d50c72.2" configVersion="99c280240db0ed4c8e84d76459fd09e400000000"/>
 		<Metadata name="DataProcessor.ирРедакторПараметровСеанса.ObjectModule" id="8ec258ed-e223-475e-be74-5fb8a3d50c72.0" configVersion="79e997d047ad8547aab9cf93582794ab00000000"/>
 		<Metadata name="DataProcessor.ирРедакторПользователей" id="c472e1b4-2aa2-4b2f-a8b8-5a9e6dcd2e1b" configVersion="31585dc5f19aa041896403d16fee63ba00000000">
@@ -2976,8 +2976,8 @@
 			<Metadata name="DataProcessor.ирРедакторПредопределенных.TabularSection.Данные.Attribute.КоличествоДанных" id="f1e51156-adf8-49a9-a267-263514a11345"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ирРедакторПредопределенных.Command.Команда1.CommandModule" id="7d61660a-ec88-489f-9f04-50d778c948d1.2" configVersion="eb26f2e09a305f4885b694941d5397eb00000000"/>
-		<Metadata name="DataProcessor.ирРедакторПредопределенных.Form.Форма" id="3aea1cf1-dfc1-4dd1-8407-8ae01111ed62" configVersion="9323f230d6b5b54c8575833f73d3437a00000000"/>
-		<Metadata name="DataProcessor.ирРедакторПредопределенных.Form.Форма.Form" id="3aea1cf1-dfc1-4dd1-8407-8ae01111ed62.0" configVersion="01ef5d1b0df3d746a85d5363c816c28400000000"/>
+		<Metadata name="DataProcessor.ирРедакторПредопределенных.Form.Форма" id="3aea1cf1-dfc1-4dd1-8407-8ae01111ed62" configVersion="f6f1db5d1b5c0d4899e24b5ed304d4fd00000000"/>
+		<Metadata name="DataProcessor.ирРедакторПредопределенных.Form.Форма.Form" id="3aea1cf1-dfc1-4dd1-8407-8ae01111ed62.0" configVersion="2a48577f00aa9a469ab42d2bf6a283d300000000"/>
 		<Metadata name="DataProcessor.ирРедакторПредопределенных.Form.Форма.Help" id="3aea1cf1-dfc1-4dd1-8407-8ae01111ed62.1" configVersion="2e8486957a510247871ab2cfb54c32d600000000"/>
 		<Metadata name="DataProcessor.ирРедакторПредопределенных.Help" id="6cee2968-ea84-452c-8ee7-6b78b55e8356.1" configVersion="93d74797f135d14fbb62d4432050f51300000000"/>
 		<Metadata name="DataProcessor.ирРедакторПредопределенных.ManagerModule" id="6cee2968-ea84-452c-8ee7-6b78b55e8356.2" configVersion="1823ded83f608840a17395b8764212d900000000"/>
@@ -3009,8 +3009,8 @@
 			<Metadata name="DataProcessor.ирРедакторХранилищНастроек.TabularSection.ФормыИБ.Attribute.ТипОбъекта" id="efbe4b6d-c4a2-4d60-affe-8a958b0c8510"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ирРедакторХранилищНастроек.Command.Команда1.CommandModule" id="2ba85083-800b-4ed2-97fa-94925b9f8403.2" configVersion="83bebd38c6dad841b329d4aefdfb68fd00000000"/>
-		<Metadata name="DataProcessor.ирРедакторХранилищНастроек.Form.Форма" id="4304d538-87b0-4491-9ffc-0d0dfb90f141" configVersion="ce9a4594e978444784fa7f92b745521f00000000"/>
-		<Metadata name="DataProcessor.ирРедакторХранилищНастроек.Form.Форма.Form" id="4304d538-87b0-4491-9ffc-0d0dfb90f141.0" configVersion="5f32adcf188dd94cb0afdc3a74fdd82500000000"/>
+		<Metadata name="DataProcessor.ирРедакторХранилищНастроек.Form.Форма" id="4304d538-87b0-4491-9ffc-0d0dfb90f141" configVersion="610a23aaf9538242af342285f6690e1800000000"/>
+		<Metadata name="DataProcessor.ирРедакторХранилищНастроек.Form.Форма.Form" id="4304d538-87b0-4491-9ffc-0d0dfb90f141.0" configVersion="76aca29158a2d0489e56dc420a5a0b8300000000"/>
 		<Metadata name="DataProcessor.ирРедакторХранилищНастроек.ManagerModule" id="1e242795-837b-4c5f-a0c2-288b79cfd26d.2" configVersion="2bdeb762030a254fb80cd550e5c3ba2f00000000"/>
 		<Metadata name="DataProcessor.ирРедакторХранилищНастроек.ObjectModule" id="1e242795-837b-4c5f-a0c2-288b79cfd26d.0" configVersion="10cf1cf8e6b1c64d93fe384170cf053e00000000"/>
 		<Metadata name="DataProcessor.ирСборщикиСчетчиковWindows" id="8cbb28ae-4568-408a-a0a4-d1aa2089edeb" configVersion="6bd6ffbefb21c44c80ec0c1810ac349e00000000">
@@ -3059,8 +3059,8 @@
 			<Metadata name="DataProcessor.ирСинтаксПомощник.TabularSection.ТаблицаИндекса.Attribute.ПутьКОписанию" id="d984b8bc-7729-4224-a423-12adc459552b"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ирСинтаксПомощник.Command.Команда1.CommandModule" id="ace25b95-6377-46ae-8b6b-58ea1705c376.2" configVersion="7a2d15119b759c439fdf594dfbc41ce700000000"/>
-		<Metadata name="DataProcessor.ирСинтаксПомощник.Form.Форма" id="9861e17b-a985-4dc2-adca-079fddb44315" configVersion="afa6a7488d4aa04196bd0354fde5b31e00000000"/>
-		<Metadata name="DataProcessor.ирСинтаксПомощник.Form.Форма.Form" id="9861e17b-a985-4dc2-adca-079fddb44315.0" configVersion="53bf3829e53c204aa288c24f7e75348100000000"/>
+		<Metadata name="DataProcessor.ирСинтаксПомощник.Form.Форма" id="9861e17b-a985-4dc2-adca-079fddb44315" configVersion="5ad3926c65ec7a4ebeff9f4c11a3769a00000000"/>
+		<Metadata name="DataProcessor.ирСинтаксПомощник.Form.Форма.Form" id="9861e17b-a985-4dc2-adca-079fddb44315.0" configVersion="5025050a427f6340aac0d1db813c316900000000"/>
 		<Metadata name="DataProcessor.ирСинтаксПомощник.ManagerModule" id="e477efbc-5502-4722-8ef5-d07f2da30b10.2" configVersion="5c9f7307f5a1bb45a7acccca2c430f7100000000"/>
 		<Metadata name="DataProcessor.ирСинтаксПомощник.ObjectModule" id="e477efbc-5502-4722-8ef5-d07f2da30b10.0" configVersion="7429d8036ea11943a25a1e76233d2e3400000000"/>
 		<Metadata name="DataProcessor.ирСинтаксПомощник.Template.ВерсииПлатформы" id="3c9eefa5-543e-4a22-b5af-bcb97d1caacb" configVersion="a4f8251968eecb43bf3e35514afe111a00000000"/>
@@ -3226,8 +3226,8 @@
 			<Metadata name="DataProcessor.ирСтруктураХраненияБД.TabularSection.Таблицы.Attribute.НИмяТаблицыХранения" id="f7cef6ca-7df9-44de-a088-f1aa30fb32f4"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ирСтруктураХраненияБД.Command.Команда1.CommandModule" id="4a9cc712-3f50-40de-bf88-598d4330a8ed.2" configVersion="7976bd2db8d6b143aaf6c754f6c34b3000000000"/>
-		<Metadata name="DataProcessor.ирСтруктураХраненияБД.Form.Форма" id="ebdb9c9c-1d7c-4ccc-b6c1-dab2f64e1615" configVersion="c2bcb3136d50ca4eb8fcf03153d9748a00000000"/>
-		<Metadata name="DataProcessor.ирСтруктураХраненияБД.Form.Форма.Form" id="ebdb9c9c-1d7c-4ccc-b6c1-dab2f64e1615.0" configVersion="ac46a4995988314baf07801a831ec62400000000"/>
+		<Metadata name="DataProcessor.ирСтруктураХраненияБД.Form.Форма" id="ebdb9c9c-1d7c-4ccc-b6c1-dab2f64e1615" configVersion="9b13e1ff38ef3045bd8ca0772774f18300000000"/>
+		<Metadata name="DataProcessor.ирСтруктураХраненияБД.Form.Форма.Form" id="ebdb9c9c-1d7c-4ccc-b6c1-dab2f64e1615.0" configVersion="33ad67a3a0bbd04a9193682515f0377000000000"/>
 		<Metadata name="DataProcessor.ирСтруктураХраненияБД.ManagerModule" id="90884938-77f8-432c-8cc4-90ebdfc5d43e.2" configVersion="b773c1f2df7aff4b8c9e191130919c3c00000000"/>
 		<Metadata name="DataProcessor.ирСтруктураХраненияБД.ObjectModule" id="90884938-77f8-432c-8cc4-90ebdfc5d43e.0" configVersion="21133d364c6b144b935d98663fc00e1b00000000"/>
 		<Metadata name="DataProcessor.ирСтруктураХраненияБД.Template.РазмерыMSSQL" id="6fe81590-d88e-438e-940f-80f43e1acf96" configVersion="18d763ffaf273545b6eb2c16b3dcb90900000000"/>
@@ -3278,7 +3278,7 @@
 		<Metadata name="DataProcessor.ирТипУзелDOM.ObjectModule" id="190e1433-6fad-4238-a96a-da5566f0008c.0" configVersion="527655e6b501844b8cc0b97d40b5dd4a00000000"/>
 		<Metadata name="DataProcessor.ирТипУзелHTML" id="5c568d36-1929-4612-a677-3ed432a76110" configVersion="00b094018a81c04f8d44a3c64e21fe1400000000"/>
 		<Metadata name="DataProcessor.ирТипУзелHTML.ObjectModule" id="5c568d36-1929-4612-a677-3ed432a76110.0" configVersion="536547e2ebc9c14686270a13582b1bd000000000"/>
-		<Metadata name="DataProcessor.ирУдалениеОбъектовСКонтролемСсылок" id="f91bce93-fcf6-4476-a1a9-04e5b7f1c1f3" configVersion="1125554618727546b4e8477eea356e6200000000">
+		<Metadata name="DataProcessor.ирУдалениеОбъектовСКонтролемСсылок" id="f91bce93-fcf6-4476-a1a9-04e5b7f1c1f3" configVersion="4f59510099c3574e9c1162838d8a927800000000">
 			<Metadata name="DataProcessor.ирУдалениеОбъектовСКонтролемСсылок.Attribute.ТипыДляЗаполненияКандидатов" id="00859437-755f-4703-838b-17db2507c8bc"/>
 			<Metadata name="DataProcessor.ирУдалениеОбъектовСКонтролемСсылок.TabularSection.СсылкиНаКандидата.Attribute.Реквизит3" id="02fb7b17-7f6d-40e4-a764-0ff4042dc462"/>
 			<Metadata name="DataProcessor.ирУдалениеОбъектовСКонтролемСсылок.TabularSection.СсылкиНаКандидата.Attribute.Блокирует" id="08b0fd45-9872-4492-9579-5ff30ba8c357"/>
@@ -3323,7 +3323,7 @@
 		<Metadata name="DataProcessor.ирУдалениеОбъектовСКонтролемСсылок.Form.Форма.Form" id="801d74c6-eca3-4360-890b-01294f39f0d8.0" configVersion="bc7a26f661b32146887437d4b975922a00000000"/>
 		<Metadata name="DataProcessor.ирУдалениеОбъектовСКонтролемСсылок.Help" id="f91bce93-fcf6-4476-a1a9-04e5b7f1c1f3.1" configVersion="e2b899c9d73d3a49b30742639728a5e500000000"/>
 		<Metadata name="DataProcessor.ирУдалениеОбъектовСКонтролемСсылок.ManagerModule" id="f91bce93-fcf6-4476-a1a9-04e5b7f1c1f3.2" configVersion="5eeb9ad622f5d94db639f1546c2ad8b500000000"/>
-		<Metadata name="DataProcessor.ирУдалениеОбъектовСКонтролемСсылок.ObjectModule" id="f91bce93-fcf6-4476-a1a9-04e5b7f1c1f3.0" configVersion="9e93e7416effba44be6b41dcb665001f00000000"/>
+		<Metadata name="DataProcessor.ирУдалениеОбъектовСКонтролемСсылок.ObjectModule" id="f91bce93-fcf6-4476-a1a9-04e5b7f1c1f3.0" configVersion="1d603a448a2d1d48a00b87002a7ecc2100000000"/>
 		<Metadata name="DataProcessor.ирУправлениеCOMКлассами1С" id="f49d70ab-7379-434c-af3c-0786b1592ea9" configVersion="7c5ba00f59fdff41a834a70a47929bf600000000">
 			<Metadata name="DataProcessor.ирУправлениеCOMКлассами1С.Attribute.ТекущийПользовательОС" id="0ab95dc9-2241-4cf7-99d8-3d8dfb2b1bd7"/>
 			<Metadata name="DataProcessor.ирУправлениеCOMКлассами1С.TabularSection.Приложения.Attribute.СборкаПлатформы" id="0c21460f-7703-4623-9120-4654a3ce7eb4"/>
@@ -3636,10 +3636,10 @@
 		<Metadata name="DataProcessor.ирУстановщикРасширения.Form.Форма.Form" id="293bca98-610f-451e-aadc-fc2a1dd5be7f.0" configVersion="48429cf6c3862a43a69efeea5d4c3dce00000000"/>
 		<Metadata name="DataProcessor.ирУстановщикРасширения.Form.ФормаОбычная" id="b7296755-196b-46c1-94a4-6c4c8247a0ca" configVersion="a18a15174db0684580ceddd9c22e475b00000000"/>
 		<Metadata name="DataProcessor.ирУстановщикРасширения.Form.ФормаОбычная.Form" id="b7296755-196b-46c1-94a4-6c4c8247a0ca.0" configVersion="d2eed6d90da4be44a67c8425e153542b00000000"/>
-		<Metadata name="DataProcessor.ирФоновыйЗапросХттп" id="5d2a2d53-aaea-417a-b786-66b5139ee2b3" configVersion="5a13981d9166104580ff5eae05e171e600000000"/>
-		<Metadata name="DataProcessor.ирФоновыйЗапросХттп.ObjectModule" id="5d2a2d53-aaea-417a-b786-66b5139ee2b3.0" configVersion="0cc22d71c186d2498e6a121b96b5f04600000000"/>
-		<Metadata name="DataProcessor.ирФоновыйЗапросХттп.Template.ФоновыйHTTPЗапрос" id="ce84841d-0961-4486-8c11-ebf3e30f8bea" configVersion="5580d043e33ded44b8a1eba77ca390b500000000"/>
-		<Metadata name="DataProcessor.ирФоновыйЗапросХттп.Template.ФоновыйHTTPЗапрос.Template" id="ce84841d-0961-4486-8c11-ebf3e30f8bea.0" configVersion="f2721cf360b7c2499bd3820f53b13f0a00000000"/>
+		<Metadata name="DataProcessor.ирФоновыйЗапросХттп" id="5d2a2d53-aaea-417a-b786-66b5139ee2b3" configVersion="3d8a693870f5bc41acd495214b2b143200000000"/>
+		<Metadata name="DataProcessor.ирФоновыйЗапросХттп.ObjectModule" id="5d2a2d53-aaea-417a-b786-66b5139ee2b3.0" configVersion="a6e82e667e034b4fb49bcb78e5b3b1a400000000"/>
+		<Metadata name="DataProcessor.ирФоновыйЗапросХттп.Template.ФоновыйHTTPЗапрос" id="ce84841d-0961-4486-8c11-ebf3e30f8bea" configVersion="3bdd96b0fdd05a4b85f02af904fd942300000000"/>
+		<Metadata name="DataProcessor.ирФоновыйЗапросХттп.Template.ФоновыйHTTPЗапрос.Template" id="ce84841d-0961-4486-8c11-ebf3e30f8bea.0" configVersion="cdab0d2b65e9a144b0fd90ae56d6571700000000"/>
 		<Metadata name="DataProcessor.ирФунктор" id="8f082f1b-7fbd-4285-91fa-aa192a7be72d" configVersion="8c467c993b74664497d313bc41b58dcd00000000"/>
 		<Metadata name="DataProcessor.ирФунктор.ObjectModule" id="8f082f1b-7fbd-4285-91fa-aa192a7be72d.0" configVersion="2654a2303a66b846988b970a647ce9a200000000"/>
 		<Metadata name="Interface.ирРазработчик" id="b2ed3de7-45f7-4bd9-880e-3c499b70767b" configVersion="526d239158706543bae0fbe5076cbed500000000"/>
@@ -3719,8 +3719,8 @@
 		<Metadata name="Report.ирАнализПравДоступа.Command.Команда1.CommandModule" id="b4d44906-444e-423e-bb45-2a70664df76c.2" configVersion="980c53aaddb7d84483abcb32296a7d5e00000000"/>
 		<Metadata name="Report.ирАнализПравДоступа.Form.ВыборПрав" id="2d7ee909-5572-43f3-b60f-9b2d2a494173" configVersion="ebb99606143ee244adbfde61c75534c900000000"/>
 		<Metadata name="Report.ирАнализПравДоступа.Form.ВыборПрав.Form" id="2d7ee909-5572-43f3-b60f-9b2d2a494173.0" configVersion="39ba3a0b59be1c489f87eb2821e14f9900000000"/>
-		<Metadata name="Report.ирАнализПравДоступа.Form.ФормаОтчета" id="6ce61a60-ecf5-4ce1-b1a0-2fe3fd041e76" configVersion="9e52241aed30f84cb42dbd54777bae4900000000"/>
-		<Metadata name="Report.ирАнализПравДоступа.Form.ФормаОтчета.Form" id="6ce61a60-ecf5-4ce1-b1a0-2fe3fd041e76.0" configVersion="4d028e1a6961644cba39b1e9321eeec400000000"/>
+		<Metadata name="Report.ирАнализПравДоступа.Form.ФормаОтчета" id="6ce61a60-ecf5-4ce1-b1a0-2fe3fd041e76" configVersion="2fdc3c5f1ecb414aa43e1f0d54b3db6900000000"/>
+		<Metadata name="Report.ирАнализПравДоступа.Form.ФормаОтчета.Form" id="6ce61a60-ecf5-4ce1-b1a0-2fe3fd041e76.0" configVersion="1421c6e4c2ddc148b169ba2a06cdff2100000000"/>
 		<Metadata name="Report.ирАнализПравДоступа.ManagerModule" id="ed9d3293-5219-488c-9a36-8c15eafc88b9.2" configVersion="44e550f4d9337f48ac3aed89539a835600000000"/>
 		<Metadata name="Report.ирАнализПравДоступа.ObjectModule" id="ed9d3293-5219-488c-9a36-8c15eafc88b9.0" configVersion="e9a4e33085365a46a418545db56a54da00000000"/>
 		<Metadata name="Report.ирАнализПравДоступа.Template.ОсновнаяСхемаКомпоновкиДанных" id="aebf6b2f-b8be-4ebc-81df-3de962dd04ce" configVersion="c9d4c0a7d2ba7c438855b30cb060ed2200000000"/>
@@ -3776,17 +3776,17 @@
 		<Metadata name="Report.ирСтатистикаПоЗапросамСУБД.Template.ЗапросMSSQL.Template" id="1ed1f0de-ff78-47f4-a800-d0d35f089854.0" configVersion="d691626b78611a4b8808392a4ec42a4800000000"/>
 		<Metadata name="Report.ирСтатистикаПоЗапросамСУБД.Template.ОсновнаяСхемаКомпоновкиДанных" id="2f496386-2da5-4526-938b-9b427c62798e" configVersion="0b64f55d67bde24388dacb63f4192a8c00000000"/>
 		<Metadata name="Report.ирСтатистикаПоЗапросамСУБД.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="2f496386-2da5-4526-938b-9b427c62798e.0" configVersion="15408c12ebbc4c4c8e40bedfa7094f5d00000000"/>
-		<Metadata name="Role.ирОтладкаПользователя" id="e42c55d4-a1b9-48c9-9f9b-63e402f5710d" configVersion="d3355caeacd06c4a830dd4b5cf09b09d00000000"/>
-		<Metadata name="Role.ирОтладкаПользователя.Rights" id="e42c55d4-a1b9-48c9-9f9b-63e402f5710d.0" configVersion="7369c00567c6e6408565c39c0fac4b3800000000"/>
-		<Metadata name="Role.ирПользователь" id="0db37ea7-8c90-4575-876c-026b425b5c09" configVersion="0e880fca85c2c447967788ad5d60db7400000000"/>
-		<Metadata name="Role.ирПользователь.Rights" id="0db37ea7-8c90-4575-876c-026b425b5c09.0" configVersion="6211fac5d1b6e34f99a8964aa35b8c2700000000"/>
-		<Metadata name="Role.ирПравоАдминистрирование" id="38a52cc0-d7f8-4660-903c-68c52d5fb0a8" configVersion="a8075e511c1c674ba010fbec163fea3d00000000"/>
-		<Metadata name="Role.ирПравоАдминистрирование.Rights" id="38a52cc0-d7f8-4660-903c-68c52d5fb0a8.0" configVersion="100747b4a81a554780ac45437392ee0c00000000"/>
-		<Metadata name="Role.ирРазработчик" id="8098f380-05ab-4143-80e6-e3c6ad0b885c" configVersion="4663918cde5eac499bdf69beab543c9a00000000"/>
-		<Metadata name="Role.ирРазработчик.Rights" id="8098f380-05ab-4143-80e6-e3c6ad0b885c.0" configVersion="98412a4c3ff8004888298207f535c15400000000"/>
-		<Metadata name="Style.ирОсновной" id="d4fb5140-8838-483f-9452-47ac6138c9d1" configVersion="ba7ed471c5b335449d141953862ec3dd00000000"/>
-		<Metadata name="Style.ирОсновной.Style" id="d4fb5140-8838-483f-9452-47ac6138c9d1.0" configVersion="a60324ce7eafca4fb85c0875f1661fd600000000"/>
-		<Metadata name="Subsystem.ИнструментыРазработчикаTormozit" id="69395056-dad8-4227-b35c-38827b1495be" configVersion="ecd5a912f119354188884e90fb8a071e00000000"/>
+		<Metadata name="Role.ирОтладкаПользователя" id="e42c55d4-a1b9-48c9-9f9b-63e402f5710d" configVersion="91389a316794c84785d9e505ef7c5bc200000000"/>
+		<Metadata name="Role.ирОтладкаПользователя.Rights" id="e42c55d4-a1b9-48c9-9f9b-63e402f5710d.0" configVersion="ae8bdd084b50b8418b341ee284aacc7700000000"/>
+		<Metadata name="Role.ирПользователь" id="0db37ea7-8c90-4575-876c-026b425b5c09" configVersion="a97773c5fe700844b9b76a99991632ba00000000"/>
+		<Metadata name="Role.ирПользователь.Rights" id="0db37ea7-8c90-4575-876c-026b425b5c09.0" configVersion="bb7d673926aae84c98c07718de12bc8a00000000"/>
+		<Metadata name="Role.ирПравоАдминистрирование" id="38a52cc0-d7f8-4660-903c-68c52d5fb0a8" configVersion="1cc8e3ad0344c34183a083d992b3d7cf00000000"/>
+		<Metadata name="Role.ирПравоАдминистрирование.Rights" id="38a52cc0-d7f8-4660-903c-68c52d5fb0a8.0" configVersion="08ded9a114f71a47b71c56e2dc61ebf300000000"/>
+		<Metadata name="Role.ирРазработчик" id="8098f380-05ab-4143-80e6-e3c6ad0b885c" configVersion="e7cbadb3bf4a7e449b25a6bdbc268bf900000000"/>
+		<Metadata name="Role.ирРазработчик.Rights" id="8098f380-05ab-4143-80e6-e3c6ad0b885c.0" configVersion="90f03cd7d744854580f187f38848030000000000"/>
+		<Metadata name="Style.ирОсновной" id="d4fb5140-8838-483f-9452-47ac6138c9d1" configVersion="66cc3f098b3c8c4594ec3b5e64bbfdbb00000000"/>
+		<Metadata name="Style.ирОсновной.Style" id="d4fb5140-8838-483f-9452-47ac6138c9d1.0" configVersion="d42ad4cfb8300d46b8892ac81a16ac4200000000"/>
+		<Metadata name="Subsystem.ИнструментыРазработчикаTormozit" id="69395056-dad8-4227-b35c-38827b1495be" configVersion="cc0c28efe080a04f9f35e41aff6d687500000000"/>
 		<Metadata name="Subsystem.ИнструментыРазработчикаTormozit.CommandInterface" id="69395056-dad8-4227-b35c-38827b1495be.1" configVersion="fbc7f0f2d8d7d84caa263a71d108734600000000"/>
 		<Metadata name="Subsystem.ИнструментыРазработчикаTormozit.Help" id="69395056-dad8-4227-b35c-38827b1495be.0" configVersion="a02c8b0a3a39da44b7e790059ed6331300000000"/>
 	</ConfigVersions>
