@@ -51,7 +51,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ирРазработчик</xr:Item>
 			</DefaultRoles>
 			<Vendor>Tormozit</Vendor>
-			<Version>8.14.2</Version>
+			<Version>8.15.1</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -356,6 +356,7 @@
 			<CommonPicture>ирОтборБезЗначения</CommonPicture>
 			<CommonPicture>ирОтборПоЗначению</CommonPicture>
 			<CommonPicture>ирОтборПоПодсистеме</CommonPicture>
+			<CommonPicture>ирОткатитьИзменения</CommonPicture>
 			<CommonPicture>ирОткрыть</CommonPicture>
 			<CommonPicture>ирОткрытьИзмененый</CommonPicture>
 			<CommonPicture>ирОткрытьОбъединить</CommonPicture>

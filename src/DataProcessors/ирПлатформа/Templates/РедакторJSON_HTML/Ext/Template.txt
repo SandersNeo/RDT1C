@@ -1,0 +1,725 @@
+﻿<!DOCTYPE HTML>
+<!-- для выполнения в Webkit 605 внутри поля HTML формы платформы 1С -->
+<!-- Это надстройка над https://github.com/josdejong/jsoneditor 1.9.4 -->
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>JSON Editor</title>
+  <link href="dist/jsoneditor.min.css" rel="stylesheet" type="text/css">
+  <script src="dist/jsoneditor.min.js"></script>
+  <script src="wrapper1C.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      overflow: hidden;
+    }
+    #jsoneditor {
+      width: 100%;
+      height: 100vh;
+      border: none;
+    }
+    .jsoneditor-menu {
+      background-color: #d0d0d0 !important;
+      border-bottom: 1px solid #a0a0a0 !important;
+      position: relative;
+      overflow: visible !important;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .jsoneditor-menu > * {
+      color: #333 !important;
+    }
+
+    /* Стили для кнопок режимов: невыбранный – белый, выбранный – серый */
+    .jsoneditor-menu .jsoneditor-modes {
+      display: inline-flex;
+      background: transparent;
+    }
+    .jsoneditor-menu .jsoneditor-modes button {
+      background: white !important;
+      color: #333 !important;
+      border: 1px solid #aaa !important;
+      margin: 0 2px;
+      border-radius: 3px;
+      transition: all 0.2s;
+    }
+    .jsoneditor-menu .jsoneditor-modes button:hover {
+      background: #f0f0f0 !important;
+    }
+    .jsoneditor-menu .jsoneditor-modes button.jsoneditor-selected,
+    .jsoneditor-menu .jsoneditor-modes button:active.jsoneditor-selected {
+      background: #c0c0c0 !important;
+      border-color: #888 !important;
+      color: #222 !important;
+    }
+
+    /* Общие стили для обеих кнопок: Go и Copy — единый размер и стиль, расположены рядом */
+    .jsoneditor-menu .jsoneditor-copy-path,
+    .static-path-nav .path-go-btn {
+      background: #e0e0e0 !important;
+      border: 1px solid #aaa !important;
+      color: #333 !important;
+      padding: 2px 2px !important;
+      margin: 0 2px !important; /* уменьшен отступ между кнопками */
+      cursor: pointer;
+      border-radius: 3px;
+      font-size: 11px;
+      font-family: monospace;
+      transition: all 0.2s ease;
+      display: inline-block;
+      text-align: center;
+      min-width: 30px;
+      line-height: normal;
+      box-sizing: border-box;
+    }
+    .jsoneditor-menu .jsoneditor-copy-path:hover,
+    .static-path-nav .path-go-btn:hover {
+      background: #f0f0f0 !important;
+      border-color: #888 !important;
+    }
+    .jsoneditor-menu .jsoneditor-copy-path:active,
+    .static-path-nav .path-go-btn:active {
+      transform: scale(0.98);
+    }
+
+    /* Статический блок навигации по пути — теперь убран лишний правый отступ, чтобы кнопка Copy была ближе */
+    .static-path-nav {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      margin: 0 2px 0 4px; /* правый отступ уменьшен */
+      padding: 2px 0;
+      vertical-align: middle;
+    }
+    .static-path-nav .path-input {
+      background: white;
+      border: 1px solid #aaa;
+      border-radius: 3px;
+      padding: 3px 3px;
+      font-size: 9px;
+      font-family: monospace;
+      width: 200px;
+      outline: none;
+      transition: border 0.2s;
+    }
+    .static-path-nav .path-input:focus {
+      border-color: #4caf50;
+      box-shadow: 0 0 0 1px rgba(76,175,80,0.3);
+    }
+
+    /* Скрываем навигацию и кнопку Copy в режиме кода */
+    .jsoneditor-mode-code .static-path-nav {
+      display: none !important;
+    }
+    .jsoneditor-mode-code .jsoneditor-copy-path {
+      display: none !important;
+    }
+
+    /* Остальные стили для тултипов и анимаций */
+    .copy-tooltip {
+      position: fixed;
+      background: #333;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-size: 11px;
+      z-index: 10000;
+      white-space: nowrap;
+      pointer-events: none;
+      animation: fadeOut 1.2s ease forwards;
+      font-family: monospace;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    .copy-tooltip::before {
+      content: '';
+      position: absolute;
+      top: -5px;
+      right: 10px;
+      border-width: 0 5px 5px 5px;
+      border-style: solid;
+      border-color: transparent transparent #333 transparent;
+    }
+    .copy-tooltip.success {
+      background: #4caf50;
+    }
+    .copy-tooltip.success::before {
+      border-color: transparent transparent #4caf50 transparent;
+    }
+    .copy-tooltip.error {
+      background: #f44336;
+    }
+    .copy-tooltip.error::before {
+      border-color: transparent transparent #f44336 transparent;
+    }
+    @keyframes fadeOut {
+      0% { opacity: 0; transform: translateY(5px); }
+      15% { opacity: 1; transform: translateY(0); }
+      85% { opacity: 1; transform: translateY(0); }
+      100% { opacity: 0; transform: translateY(5px); visibility: hidden; }
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); border-color: #4caf50; }
+      50% { transform: scale(1.02); border-color: #ff9800; }
+      100% { transform: scale(1); border-color: #4caf50; }
+    }
+    .path-input.pulse {
+      animation: pulse 0.5s ease;
+    }
+  </style>
+</head>
+<body>
+<div id="jsoneditor"></div>
+<button id="onChange" style="display: none"></button>
+
+<script>
+  function Init() {
+    return editor;
+  }
+
+  const container = document.getElementById("jsoneditor");
+  let lastSelectedPath = '';
+  let staticNavAdded = false;
+  let copyButtonAdded = false;
+
+  function showTooltip(element, message, isError = false) {
+    const rect = element.getBoundingClientRect();
+    const tooltip = document.createElement('div');
+    tooltip.className = `copy-tooltip ${isError ? 'error' : 'success'}`;
+    tooltip.textContent = message;
+    tooltip.style.left = (rect.right - 20) + 'px';
+    tooltip.style.top = (rect.bottom + 8) + 'px';
+    tooltip.style.transform = 'translateX(-100%)';
+    document.body.appendChild(tooltip);
+    setTimeout(() => {
+      if (tooltip.parentNode) tooltip.remove();
+    }, 1500);
+  }
+
+  function getCurrentPath() {
+    const pathDisplay = document.querySelector('.jsoneditor-treepath');
+    if (!pathDisplay) return '';
+    const elements = pathDisplay.querySelectorAll('.jsoneditor-treepath-element');
+    if (!elements.length) return '';
+    const parts = [];
+    for (let i = 1; i < elements.length; i++) {
+      let part = elements[i].textContent.trim();
+      if (part.startsWith('"') && part.endsWith('"')) part = part.slice(1, -1);
+      parts.push(part);
+    }
+    return parts.join('.');
+  }
+
+  function selectNodeByPath(pathStr, sourceElement = null) {
+    if (!pathStr) {
+      if (sourceElement) showTooltip(sourceElement, 'Path is empty', true);
+      return false;
+    }
+
+    // Проверяем существование пути в данных
+    try {
+      const data = editor.get();
+      const parts = pathStr.split('.');
+      let current = data;
+      for (let i = 0; i < parts.length; i++) {
+        const part = parts[i];
+        if (current === null || current === undefined) {
+          if (sourceElement) showTooltip(sourceElement, 'Path not found: ' + pathStr, true);
+          return false;
+        }
+        if (Array.isArray(current)) {
+          const idx = parseInt(part, 10);
+          if (isNaN(idx)) {
+            if (sourceElement) showTooltip(sourceElement, 'Invalid array index: ' + part, true);
+            return false;
+          }
+          current = current[idx];
+        } else if (typeof current === 'object') {
+          if (!current.hasOwnProperty(part)) {
+            if (sourceElement) showTooltip(sourceElement, 'Property not found: ' + part, true);
+            return false;
+          }
+          current = current[part];
+        } else {
+          if (sourceElement) showTooltip(sourceElement, 'Cannot navigate further', true);
+          return false;
+        }
+      }
+    } catch (err) {
+      if (sourceElement) showTooltip(sourceElement, 'Invalid path', true);
+      return false;
+    }
+
+    if (editor.getMode() !== 'tree') {
+      if (sourceElement) showTooltip(sourceElement, 'Switch to tree mode first', true);
+      return false;
+    }
+
+    // Пытаемся найти узел и прокрутить
+    try {
+      const pathArray = pathStr.split('.').map(part => /^\d+$/.test(part) ? parseInt(part, 10) : part);
+      let targetNode = null;
+      if (editor.node && typeof editor.node.findNodeByPath === 'function') {
+        targetNode = editor.node.findNodeByPath(pathArray);
+      } else if (editor.tree && typeof editor.tree.findNodeByPath === 'function') {
+        targetNode = editor.tree.findNodeByPath(pathArray);
+      } else if (editor.editor && editor.editor.tree && typeof editor.editor.tree.findNodeByPath === 'function') {
+        targetNode = editor.editor.tree.findNodeByPath(pathArray);
+      }
+
+      if (targetNode) {
+        setTimeout(() => {
+          if (typeof targetNode.scrollTo === 'function') {
+            targetNode.scrollTo(() => { if (typeof targetNode.focus === 'function') targetNode.focus(); });
+          } else if (targetNode.dom) {
+            targetNode.dom.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }
+        }, 100);
+        setTimeout(() => { lastSelectedPath = getCurrentPath(); }, 200);
+        if (sourceElement) {
+          const shortPath = pathStr.length > 50 ? pathStr.substring(0, 47) + '...' : pathStr;
+          showTooltip(sourceElement, shortPath, false);
+        }
+        return true;
+      }
+    } catch (e) {}
+
+    if (sourceElement) showTooltip(sourceElement, 'Cannot find node: ' + pathStr, true);
+    return false;
+  }
+
+  function getSelectedTextFromAce() {
+    const ace = editor.aceEditor;
+    if (ace) {
+      const selection = ace.getSession().getSelection();
+      if (selection && !selection.isEmpty()) {
+        return ace.getSession().getTextRange(selection.getRange());
+      }
+    }
+    return '';
+  }
+
+  function getFullPathFromAceCursor() {
+    try {
+      const ace = editor.aceEditor;
+      if (!ace) return '';
+      const pos = ace.getCursorPosition();
+      const session = ace.getSession();
+      const doc = session.getDocument();
+      const fullText = doc.getValue();
+      let cursorPos = 0;
+      for (let i = 0; i < pos.row; i++) cursorPos += doc.getLine(i).length + 1;
+      cursorPos += pos.column;
+
+      const textBefore = fullText.substring(0, cursorPos);
+      const pathParts = [];
+      let braceLevel = 0, inString = false, currentKey = '', searchingForKey = false;
+      let arrayIndices = [], currentArrayIndex = -1;
+
+      for (let i = 0; i < textBefore.length; i++) {
+        const ch = textBefore[i];
+        const prevCh = i > 0 ? textBefore[i-1] : '';
+        if (ch === '"' && prevCh !== '\\') {
+          inString = !inString;
+          if (!inString && searchingForKey && currentKey) {
+            pathParts.push(currentKey);
+            currentKey = '';
+            searchingForKey = false;
+          }
+          continue;
+        }
+        if (!inString) {
+          if (ch === '{') braceLevel++;
+          else if (ch === '}') {
+            braceLevel = Math.max(0, braceLevel - 1);
+            if (arrayIndices.length && braceLevel <= arrayIndices[arrayIndices.length-1].level) arrayIndices.pop();
+          } else if (ch === '[') {
+            braceLevel++;
+            arrayIndices.push({ index: 0, level: braceLevel - 1 });
+            currentArrayIndex = 0;
+          } else if (ch === ']') {
+            braceLevel = Math.max(0, braceLevel - 1);
+            if (arrayIndices.length && braceLevel === arrayIndices[arrayIndices.length-1].level) arrayIndices.pop();
+            currentArrayIndex = arrayIndices.length ? arrayIndices[arrayIndices.length-1].index : -1;
+          } else if (ch === ',' && arrayIndices.length) {
+            arrayIndices[arrayIndices.length-1].index++;
+            currentArrayIndex = arrayIndices[arrayIndices.length-1].index;
+          }
+          if (ch === '"') { searchingForKey = true; currentKey = ''; }
+          else if (searchingForKey && ch !== '"') currentKey += ch;
+          else if (searchingForKey && ch === ':' && currentKey) {
+            pathParts.push(currentKey);
+            currentKey = '';
+            searchingForKey = false;
+          }
+        }
+      }
+      if (arrayIndices.length && currentArrayIndex >= 0) pathParts.push(String(currentArrayIndex));
+      if (pathParts.length) return pathParts.join('.');
+      const simpleMatch = textBefore.match(/"([^"]+)"\s*:/g);
+      if (simpleMatch && simpleMatch.length) {
+        const lastMatch = simpleMatch[simpleMatch.length-1];
+        const keyMatch = lastMatch.match(/"([^"]+)"/);
+        if (keyMatch) return keyMatch[1];
+      }
+      return '';
+    } catch(e) { return ''; }
+  }
+
+  function findPathByValue(obj, target, path = []) {
+    if (obj === target) return path;
+    if (obj && typeof obj === 'object') {
+      if (Array.isArray(obj)) {
+        for (let i = 0; i < obj.length; i++) {
+          const found = findPathByValue(obj[i], target, [...path, i]);
+          if (found) return found;
+        }
+      } else {
+        for (const key in obj) {
+          if (obj.hasOwnProperty(key)) {
+            const found = findPathByValue(obj[key], target, [...path, key]);
+            if (found) return found;
+          }
+        }
+      }
+    }
+    return null;
+  }
+
+ function findPositionForPath(path, json) {
+  if (!path) return -1;
+
+  // 1. Нормализуем путь: "cells[1].name1" -> ["cells", "1", "name1"]
+  const parts = path.replace(/\[(\d+)\]/g, '.$1').split('.').filter(Boolean);
+  
+  let searchPos = 0;
+  let finalPos = -1;
+
+  for (let i = 0; i < parts.length; i++) {
+    const part = parts[i];
+    const isIndex = /^\d+$/.test(part);
+
+    if (isIndex) {
+      // Это индекс массива. Ищем начало массива и пропускаем N элементов.
+      const targetIndex = parseInt(part, 10);
+      let arrayStart = json.indexOf('[', searchPos);
+      if (arrayStart === -1) break;
+      
+      searchPos = arrayStart + 1;
+      let count = 0;
+      let bracketLevel = 0;
+      let braceLevel = 0;
+      let inString = false;
+
+      // Проходим по символам, пока не найдем нужный индекс
+      while (count < targetIndex && searchPos < json.length) {
+        const char = json[searchPos];
+        // Учитываем кавычки, чтобы не споткнуться о запятые внутри строк
+        if (char === '"' && json[searchPos - 1] !== '\\') inString = !inString;
+        if (!inString) {
+          if (char === '[') bracketLevel++;
+          else if (char === ']') bracketLevel--;
+          else if (char === '{') braceLevel++;
+          else if (char === '}') braceLevel--;
+          else if (char === ',' && bracketLevel === 0 && braceLevel === 0) {
+            count++;
+          }
+        }
+        searchPos++;
+      }
+      finalPos = searchPos;
+    } else {
+      // Это ключ объекта. Ищем строку "ключ"
+      const keyPattern = '"' + part + '"';
+      const found = json.indexOf(keyPattern, searchPos);
+      if (found !== -1) {
+        finalPos = found;
+        searchPos = found + keyPattern.length;
+      } else {
+        break; // Ключ не найден
+      }
+    }
+  }
+
+  return finalPos;
+}
+
+function setCursorAt(position) {
+  const ace = editor.aceEditor;
+  if (!ace) return;
+  const doc = ace.getSession().getDocument();
+  let total = 0;
+  
+  for (let i = 0; i < doc.getLength(); i++) {
+    const len = doc.getLine(i).length + 1; // +1 для символа переноса строки
+    if (total + len > position) {
+      const row = i;
+      const column = position - total;
+
+      // Устанавливаем курсор
+      ace.moveCursorTo(row, column);
+      
+      // Прокручиваем к строке:
+      // row - номер строки
+      // true - центрировать (строка будет посередине экрана)
+      // true - анимировать прокрутку
+      ace.scrollToLine(row, true, true, function () {});
+      
+      ace.focus();
+      break;
+    }
+    total += len;
+  }
+}
+
+  function onModeChange(newMode) {
+    if (newMode === 'code') {
+      if (lastSelectedPath) {
+        setTimeout(() => {
+          const text = editor.getText();
+          const pos = findPositionForPath(lastSelectedPath, text);
+          if (pos !== -1) setCursorAt(pos);
+        }, 150);
+      }
+    } else if (newMode === 'tree') {
+      setTimeout(() => {
+        let path = null;
+        const selected = getSelectedTextFromAce();
+        if (selected) {
+          try {
+            const data = editor.get();
+            let val;
+            try { val = JSON.parse(selected); } catch(e) { val = selected; }
+            const found = findPathByValue(data, val);
+            if (found) path = found.join('.');
+          } catch(e) {}
+        }
+        if (!path) path = getFullPathFromAceCursor();
+        if (!path && lastSelectedPath) path = lastSelectedPath;
+        if (path) selectNodeByPath(path, null);
+      }, 200);
+    }
+  }
+
+  // Статическое поле ввода пути
+  function addStaticPathNav() {
+    if (staticNavAdded) return true;
+    const menu = document.querySelector('.jsoneditor-menu');
+    if (!menu) return false;
+    if (menu.querySelector('.static-path-nav')) return true;
+
+    // Ищем элемент поиска (обычно .jsoneditor-search или его родитель)
+    let searchElement = menu.querySelector('.jsoneditor-search');
+      if (!searchElement) {
+        var searchInput = menu.querySelector('input[placeholder*="search"]');
+        if (searchInput) searchElement = searchInput.closest('.jsoneditor-search');
+      }
+
+    const navDiv = document.createElement('div');
+    navDiv.className = 'static-path-nav';
+    navDiv.innerHTML = `
+      <input type="text" class="path-input" placeholder="Enter path (A.B)" autocomplete="off">
+      <button class="path-go-btn">Go</button>
+    `;
+
+    const input = navDiv.querySelector('.path-input');
+    const goBtn = navDiv.querySelector('.path-go-btn');
+
+    if (lastSelectedPath) input.value = lastSelectedPath;
+
+    function navigate() {
+      const path = input.value.trim();
+      if (path) {
+        selectNodeByPath(path, goBtn);
+        setTimeout(() => { lastSelectedPath = getCurrentPath(); }, 300);
+      } else {
+        showTooltip(goBtn, 'Enter a path', true);
+        input.classList.add('pulse');
+        setTimeout(() => input.classList.remove('pulse'), 500);
+      }
+    }
+
+    goBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      navigate();
+    });
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        e.stopPropagation();
+        navigate();
+      }
+    });
+
+    if (searchElement) {
+      searchElement.parentNode.insertBefore(navDiv, searchElement);
+    } else {
+      menu.appendChild(navDiv);
+    }
+
+    staticNavAdded = true;
+    return true;
+  }
+
+  // Кнопка копирования пути: теперь вставляется сразу после блока навигации (если он есть)
+  function addCopyButton() {
+    if (copyButtonAdded) return true;
+    const menu = document.querySelector('.jsoneditor-menu');
+    if (!menu) return false;
+    if (menu.querySelector('.jsoneditor-copy-path')) return true;
+
+    const btn = document.createElement('button');
+    btn.className = 'jsoneditor-copy-path';
+    btn.textContent = 'Copy';
+    btn.title = 'Copy path';
+
+    btn.addEventListener('click', async (e) => {
+      e.stopPropagation();
+      let path = '';
+      if (editor.getMode() === 'tree') {
+        path = getCurrentPath();
+      } else {
+        const selected = getSelectedTextFromAce();
+        if (selected) {
+          try {
+            const data = editor.get();
+            let val;
+            try { val = JSON.parse(selected); } catch(e) { val = selected; }
+            const found = findPathByValue(data, val);
+            if (found) path = found.join('.');
+          } catch(e) {}
+        }
+        if (!path) path = getFullPathFromAceCursor();
+      }
+      if (!path) {
+        showTooltip(btn, 'No element selected', true);
+        return;
+      }
+      try {
+        await navigator.clipboard.writeText(path);
+        const shortPath = path.length > 50 ? path.substring(0, 47) + '...' : path;
+        showTooltip(btn, shortPath, false);
+      } catch(err) {
+        const ta = document.createElement('textarea');
+        ta.value = path;
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        ta.remove();
+        const shortPath = path.length > 50 ? path.substring(0, 47) + '...' : path;
+        showTooltip(btn, shortPath, false);
+      }
+    });
+
+    // Вставляем кнопку после статической навигации, если она есть, чтобы они были рядом
+    const navDiv = menu.querySelector('.static-path-nav');
+    if (navDiv && navDiv.nextSibling) {
+      menu.insertBefore(btn, navDiv.nextSibling);
+    } else if (navDiv) {
+      menu.appendChild(btn);
+    } else {
+      // Если навигации ещё нет, вставляем в конец, но позже при повторном вызове будет скорректировано
+      menu.appendChild(btn);
+    }
+
+    copyButtonAdded = true;
+    return true;
+  }
+
+  function updatePath() {
+    if (editor.getMode() === 'tree') {
+      const p = getCurrentPath();
+      if (p && p !== lastSelectedPath) {
+        lastSelectedPath = p;
+        const pathInput = document.querySelector('.static-path-nav .path-input');
+        if (pathInput && pathInput.value !== p) pathInput.value = p;
+      }
+    }
+  }
+
+  // Инициализация редактора
+  const options = {
+    mode: 'code',
+    modes: ['tree', 'code'],
+    onModeChange: onModeChange,
+    onChange: () => {
+      if (document.getElementById('onChange')) document.getElementById('onChange').click();
+    }
+  };
+  const editor = new JSONEditor(container, options);
+
+  // Добавляем элементы управления после появления меню
+  const obs = new MutationObserver(() => {
+    addStaticPathNav();
+    addCopyButton();
+    const isTree = editor.getMode() === 'tree';
+    if (isTree) {
+      document.body.classList.remove('jsoneditor-mode-code');
+      document.body.classList.add('jsoneditor-mode-tree');
+    } else {
+      document.body.classList.remove('jsoneditor-mode-tree');
+      document.body.classList.add('jsoneditor-mode-code');
+    }
+  });
+  obs.observe(document.body, { childList: true, subtree: true });
+
+  setInterval(updatePath, 300);
+  container.addEventListener('click', () => setTimeout(updatePath, 100));
+
+  // Перехват кнопок навигации поиска (.jsoneditor-previous / .jsoneditor-next).
+  // После каждого клика берём activeResult.node из searchBox редактора,
+  // вызываем нативный _updateTreePath и синхронизируем поле ввода пути.
+  function refreshSearchTreepath() {
+    if (editor.getMode() !== 'tree') return;
+    try {
+      const sb = editor.searchBox;
+      if (!sb || !sb.activeResult) return;
+      const node = sb.activeResult.node;
+      if (!node || typeof node.getNodePath !== 'function') return;
+      editor._updateTreePath(node.getNodePath());
+      const p = getCurrentPath();
+      if (p) {
+        lastSelectedPath = p;
+        const pathInput = document.querySelector('.static-path-nav .path-input');
+        if (pathInput && pathInput.value !== p) pathInput.value = p;
+      }
+    } catch(e) {}
+  }
+
+  document.addEventListener('click', (e) => {
+    if (!e.target) return;
+    if (!e.target.closest('.jsoneditor-previous, .jsoneditor-next')) return;
+    setTimeout(refreshSearchTreepath, 0);
+  }, true);
+
+  setInterval(() => {
+    if (!document.querySelector('.static-path-nav')) staticNavAdded = false;
+    if (!document.querySelector('.jsoneditor-copy-path')) copyButtonAdded = false;
+    addStaticPathNav();
+    addCopyButton();
+    const isTree = editor.getMode() === 'tree';
+    if (isTree) {
+      document.body.classList.remove('jsoneditor-mode-code');
+      document.body.classList.add('jsoneditor-mode-tree');
+    } else {
+      document.body.classList.remove('jsoneditor-mode-tree');
+      document.body.classList.add('jsoneditor-mode-code');
+    }
+  }, 2000);
+
+  setTimeout(() => {
+    addStaticPathNav();
+    addCopyButton();
+    lastSelectedPath = getCurrentPath();
+  }, 200);
+</script>
+</body>
+</html>

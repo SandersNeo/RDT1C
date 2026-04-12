@@ -36,8 +36,11 @@ window._1CAPI.isActiveHttpRequest = function() {
 };
 
 // Функция для обычных HTTP запросов
-window._1CAPI.sendHttpRequest = function(url, body, headersArray, cancelPrevious) {
+window._1CAPI.sendHttpRequest = function(url, body, headersArray, method, cancelPrevious) {
+
     if (cancelPrevious === undefined) cancelPrevious = true;
+    if (method === undefined) method = 'POST';
+
     
     try {
         // Отменяем предыдущий запрос, если включен флаг и запрос существует и еще не завершен
@@ -50,7 +53,8 @@ window._1CAPI.sendHttpRequest = function(url, body, headersArray, cancelPrevious
         // Сохраняем ссылку на текущий запрос
         window.currentXHR = xhr;
         
-        xhr.open('POST', url, true);
+        xhr.open(method, url, true);
+
         
         // Устанавливаем заголовки
         headersArray = JSON.parse(headersArray);
@@ -111,7 +115,8 @@ window._1CAPI.sendHttpRequest = function(url, body, headersArray, cancelPrevious
             }
         };
         
-        xhr.send(body);
+        xhr.send(method === 'GET' ? null : body);
+
         
     } catch (error) {
         // Проверяем, не была ли ручная отмена

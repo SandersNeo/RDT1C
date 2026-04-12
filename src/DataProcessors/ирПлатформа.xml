@@ -5835,11 +5835,9 @@
 			<Template>GameWithFire_Описание</Template>
 			<Template>GoldParser</Template>
 			<Template>GoldParserReg</Template>
-			<Template>JSONEditor</Template>
 			<Template>KeyboardHookWin32</Template>
 			<Template>KeyboardHookWin64</Template>
 			<Template>KeyboardHookZip</Template>
-			<Template>MonacoEditor</Template>
 			<Template>OpenIn1Cv8ExeWin</Template>
 			<Template>RegasmExeWin32</Template>
 			<Template>RegasmExeWin64</Template>
@@ -5863,6 +5861,9 @@
 			<Template>ПрограммныеКомпоненты</Template>
 			<Template>ПросмотрMarkdownHTML</Template>
 			<Template>ПросмотрMarkdownКод</Template>
+			<Template>РедакторMonaco</Template>
+			<Template>РедакторJSON</Template>
+			<Template>РедакторJSON_HTML</Template>
 			<Template>РусскийАнглийский</Template>
 			<Template>СкриптКопированиеВБуферОбменаCTRLКлик</Template>
 			<Template>СкриптОткрытыеПриложения1С</Template>
